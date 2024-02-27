@@ -268,7 +268,7 @@
 
 
 
-/*-----------------Herstyles undersiden vegetarkassen-----------------*/
+/*-----------------Her styles undersiden vegetarkassen-----------------*/
  /*Her styler jeg min tilbage knap*/
  span.knapper {
   border-color: #9b282c;
@@ -425,12 +425,19 @@ footer a {
 /* ------------------------måltidskasser siden----------------- */
 
 /* styling af beskrivelse af vores måltidskasser */
+
+
+
 .brødtekst-maaltidskasser{
    display: flex;
    justify-content: center;
    margin-bottom: 2rem;
    font-weight: normal;
    text-align: justify;
+   font-family: "Jost", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+
 }
 
 /* styling af tekstboksen */
@@ -559,6 +566,7 @@ footer a {
    align-items: center;
    margin-top: 10px;
    margin-bottom: 10px;
+   padding: 3rem;
  }
 
  #filter-buttons img:hover{
