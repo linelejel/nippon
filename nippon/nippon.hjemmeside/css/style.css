@@ -347,9 +347,9 @@ span.forside-knap a{
 .tid {
   color: #344396;
   margin-left: 15px;
-  margin-bottom: 10px;
   margin-bottom: 5px;
   font-size: 1.5rem;
+  margin-bottom: 10px;
 
 }
 .pris{
@@ -507,13 +507,16 @@ span.måltidskasse-læsmere-knap:hover{
  
  .tilføj-knap {
    background-color: #f9f2f0;
-   margin-top: 0;
+  
  }
 
 h1#vegetarkassen {
   padding-top: 3rem;
   color: #344693;
   text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .vegetar-container {
   display: grid;
@@ -915,7 +918,7 @@ input[type="button"]{
 
 
 /*************************************************************************************************************************************/
-/**************************************************************** valg ***************************************************************/
+/******************************************************* styling af valg-siden *******************************************************/
 /*************************************************************************************************************************************/
 
 
@@ -1346,6 +1349,11 @@ video {
 }
 /**/
 
+h1#egenkassen {
+  padding-top: 3rem;
+  color: #344693;
+  text-align: center;
+}
 
 .first-item {
   text-align: center;
@@ -1380,6 +1388,7 @@ video {
   height: auto;
   width: 15vw;
   background-color: transparent;
+  margin-left: 1.5rem;
  
 }
 
