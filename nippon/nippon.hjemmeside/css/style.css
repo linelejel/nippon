@@ -136,9 +136,9 @@
 .forside-knapboks{
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin: auto;
   margin-bottom: 5rem;
-  margin-left: 25rem;
+  margin-left: 42rem;
 }
 
 span.forside-knap{
