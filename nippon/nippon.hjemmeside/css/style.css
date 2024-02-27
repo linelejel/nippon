@@ -121,10 +121,13 @@
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-family: "Katibeh", serif;
   color: #344396;
-  font-size: 4rem;
+  font-size: 3.5rem;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
+  font-style: normal;
+  padding: 1rem;
+
 }
 
 /* styling af måltidskasser knap */
@@ -269,10 +272,12 @@ span.forside-knap a{
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-family: "Katibeh", serif;
   color: #344396;
   font-size: 4rem;
   font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* styling af beskrivelse af vores måltidskasser */
@@ -282,6 +287,7 @@ span.forside-knap a{
   margin-bottom: 2rem;
   font-weight: normal;
   text-align: justify;
+
 }
 
 /* styling af tekstboksen */
@@ -303,6 +309,7 @@ span.forside-knap a{
   justify-content: space-around;
   width: 100%;
   margin-bottom: 20px;
+  padding:5rem;
 }
 
 .image-item {
@@ -483,7 +490,14 @@ span.måltidskasse-læsmere-knap:hover{
  }
 
  span.vælg-knap {
-  margin-left: 50% ;
+  margin-left: 50%;
+ }
+
+ .uge-menu{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
  }
  
  .læs-mere-knap,
@@ -532,8 +546,10 @@ img.vegetarimg-content {
 
 .vegetar-content {
   padding-left: 5rem;
-  color: #344693;
   line-height: 2;
+  font-family: "Jost", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
 
 }
 
@@ -644,7 +660,6 @@ footer a {
    text-align: justify;
    font-family: "Jost", sans-serif;
    font-optical-sizing: auto;
-   font-weight: 500;
 
 }
 
@@ -711,6 +726,9 @@ footer a {
    color: #344396;
    margin-left: 15px;
    margin-bottom: 10px;
+   font-family: "Bebas Neue", sans-serif;
+   font-weight: 400;
+   font-style: normal;
  
  }
 
