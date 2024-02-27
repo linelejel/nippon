@@ -1074,7 +1074,7 @@ body{
    color: white;
 }
 
-.person-knap {
+input.person-knap {
    width: 40px;
    height: 40px;
    border-radius: 50%;
@@ -1082,6 +1082,8 @@ body{
    font-size: 1.8rem;
    border: 1px solid #9b282c;
    font-family: katibeh;
+   color: #344396;
+   background-color: #f9f2f0;
 }
 
 .japanskmad {
@@ -1317,6 +1319,7 @@ margin: 1.2rem; /* Fjerner den tidligere margin for at undgå overskydende afsta
   align-self: flex-end;
   margin-top: 1rem; /* Adjust margin-top */
 }
+
 
 
 
