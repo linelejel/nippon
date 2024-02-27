@@ -371,14 +371,20 @@ span.forside-knap a{
   font-size: 2rem;
 }
 
+<<<<<<< Updated upstream
 
 
 span.måltidskasse-læs-mere-knap,
 span.måltidskasse-tilføj-knap {
   background-color: white;
+=======
+.læs-mere-knap,
+.tilføj-knap {
+  background-color: #f9f2f0;
+>>>>>>> Stashed changes
   color: #9b282c;
   border: 2px solid #9b282c;
-  border-radius: 50%;
+  border-radius: 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -388,16 +394,21 @@ span.måltidskasse-tilføj-knap {
   padding: 15px 20px;
 }
 
+<<<<<<< Updated upstream
 span.måltidskasse-tilføj-knap {
   background-color: white;
+=======
+.tilføj-knap {
+  background-color: #f9f2f0;
+>>>>>>> Stashed changes
   margin-top: 0;
 }
 span.måltidskasse-læsmere-knap{
-  background-color: white;
+  background-color: #F9F2F0;
   color: #9b282c;
   padding: 8px 16px;
   border: 2px solid #9b282c;
-  border-radius: 50%;
+  border-radius: 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -456,23 +467,62 @@ span.måltidskasse-tilføj-knap:hover {
 
 /*-----------------Her styles undersiden vegetarkassen-----------------*/
  /*Her styler jeg min tilbage knap*/
- span.knapper {
-  border-color: #9b282c;
-  border-style: solid;
-  border-radius: 25px;
-  padding: 0.5rem;
-  margin-left: 5rem;
-  font-family: "KoHo", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-
-}
-span a {
+ 
+ span.tilbage-knap {
+  background-color: #f9f2f0;
+   color: #9b282c;
+   padding: 8px 16px;
+   border: 2px solid #9b282c;
+   border-radius: 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin-top: 5px;
+   margin-left: 10rem;
+   cursor: pointer;
+   padding: 15px 20px;
+ }
+ 
+ .tilbage-knap, a {
   text-decoration: none;
-  list-style: none;
   color: #9b282c;
-}
+  font-family: "KoHo", sans-serif;
+ }
 
+ span.vælg-knap {
+  margin-left: 50% ;
+ }
+ 
+ .læs-mere-knap,
+ .tilføj-knap {
+   background-color: #f9f2f0;
+   color: #9b282c;
+   padding: 8px 16px;
+   border: 2px solid #9b282c;
+   border-radius: 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin-top: 5px;
+   cursor: pointer;
+   padding: 15px 20px;
+ }
+ .læs-mere-knap, .tilføj-knap a {
+  font-family: "KoHo", sans-serif;
+ }
+ 
+ .tilføj-knap {
+   background-color: #f9f2f0;
+   margin-top: 0;
+ }
+
+h1#vegetarkassen {
+  padding-top: 3rem;
+  color: #344693;
+  text-align: center;
+}
 .vegetar-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -492,6 +542,7 @@ img.vegetarimg-content {
 
 }
 
+
 h2 {
   padding-top: 3rem;
   color: #344693;
@@ -506,11 +557,13 @@ h2 {
   margin-left: 10rem;
   margin-right: 10rem;
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .menu-item {
   text-align: center;
   margin-right: 20px;
+  align-items: center;
 }
 
 /* styling af retter under vegetarkassen billeder */
@@ -542,39 +595,18 @@ h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-img#ur {
-  width: 20%;
-}
-div.tid {
-  display: flex;
-  align-items: center;
-  margin-left: 6rem;
-  margin-top: 1rem;
-}
 
-div.knapper {
-  display: flex;
-  align-items: center;
-  margin-top: 1rem;
 
-}
 
-div.knapper,span {
-  
-  margin-left: 3rem;
-}
 
-section.vælgknap {
-  margin-top: 6rem ;
-  margin-bottom: 4rem;
-  text-align: center;
-  font-family: katibeh;
-  
-}
+
+
+
 
 p {
-  font-family: katibeh;
+  font-family: "KoHo", sans-serif;
 }
+
 
 
  /* styling af footer */
@@ -705,11 +737,11 @@ footer a {
  
  .læs-mere-knap,
  .tilføj-knap {
-   background-color: white;
+   background-color: #f9f2f0;
    color: #9b282c;
    padding: 8px 16px;
    border: 2px solid #9b282c;
-   border-radius: 50%;
+   border-radius: 25px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
@@ -720,7 +752,7 @@ footer a {
  }
  
  .tilføj-knap {
-   background-color: white;
+   background-color: #f9f2f0;
    margin-top: 0;
  }
 

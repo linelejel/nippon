@@ -41,7 +41,7 @@
             <div class="nav-menu">
                 <ul>
                     <li id="maaltidskasser"> <a href="maaltidskasser.html">Måltidskasser </a></li>
-                    <li id="infographic"> <a href="infographic.html"> Sådan fungerer det</a></li>
+                    <li id="infographic"> <a href="infographic.html"> Sådan fungere det</a></li>
                     <li id="error"> <a href="error.html"> Om os</a></li>
                 </ul>
             </div>
@@ -57,7 +57,9 @@
         
         <!--Tilbage knap-->
         
-        <span> <a href="index.html">Tilbage</a></span>
+       <span class="tilbage-knap">
+        <a href="maaltidskasser.html">Tilbage</a>
+       </span>
         
         
 <!--Første del af siden. Her har vi lavet encontainer, 
@@ -92,13 +94,16 @@
                 <div class="circle-background">
                   <img src="img/papirsruller.webp" alt="Vegetariske Rispapirsruller" id="rispapirsruller">
                 </div>
-                <br>
-                <p>Rispapirsruller</p> <!--Lidt information omkring hvad det er og hvor
-                lang tid det tager at lave-->
-                <div class="tid"><img id="ur" src="img/ur.webp" alt="Ur. Hvor lang tid tager det"> <p>20-30 min</p></div> 
-                <div class="knapper"> <!--To knapper, placeret ved siden af hinanden-->
-                    <span> <a href="#">Læs mere</a></span>
-                    <span> <a href="#">Tilføj</a></span>
+                <div class="details">
+                    <p class="beskrivelse">Vegetariske rispapirsruller</p>
+        
+                    <div class="tids-detaljer">
+                        <i class="fas fa-clock"></i>
+                        <p class="tid">20-30 min</p>
+                    </div>
+                    <button class="læs-mere-knap">Læs mere</button>
+                    <button class="tilføj-knap">Tilføj</button>
+                  </div>
                 </div>
               </div>
 
@@ -106,25 +111,33 @@
                 <div class="circle-background">
                   <img src="img/tepurarejer.webp" alt="tempura tofu" id="tempuratofu">
                 </div>
-                <br>
-                <p>Tempura Tofu</p>
-                <div class="tid"><img id="ur" src="img/ur.webp" alt="Ur. Hvor lang tid tager det"> <p>20-30 min</p></div>
-                <div class="knapper">
-                    <span> <a href="#">Læs mere</a></span>
-                    <span> <a href="#">Tilføj</a></span>
+                <div class="details">
+                    <p class="beskrivelse">Tempura tofu</p>
+        
+                    <div class="tids-detaljer">
+                        <i class="fas fa-clock"></i>
+                        <p class="tid">20-30 min</p>
+                    </div>
+                    <button class="læs-mere-knap">Læs mere</button>
+                    <button class="tilføj-knap">Tilføj</button>
+                  </div>
                 </div>
-              </div>
+            </div>
 
               <div class="menu-item">
                 <div class="circle-background">
                   <img src="img/okonomiyaki.webp" alt="Okonomiyaki" id="okonomiyaki">
                 </div>
-                <br>
-                <p>Okonomiyaki</p>
-                <div class="tid"><img id="ur" src="img/ur.webp" alt="Ur. Hvor lang tid tager det"> <p>20-30 min</p></div>
-                <div class="knapper">
-                    <span> <a href="#">Læs mere</a></span>
-                    <span> <a href="#">Tilføj</a></span>
+                <div class="details">
+                    <p class="beskrivelse">Vegetarisk okonomiyaki</p>
+        
+                    <div class="tids-detaljer">
+                        <i class="fas fa-clock"></i>
+                        <p class="tid">20-30 min</p>
+                    </div>
+                    <button class="læs-mere-knap">Læs mere</button>
+                    <button class="tilføj-knap">Tilføj</button>
+                  </div>
                 </div>
               </div>
 
@@ -132,21 +145,24 @@
                 <div class="circle-background">
                   <img src="img/sushi.webp" alt="vegetarisk sushi" id="vegetarsushi">
                 </div>
-                <br>
-                <p>Vegetarisk sushi</p>
-                <div class="tid"><img id="ur" src="img/ur.webp" alt="Ur. Hvor lang tid tager det"> <p>30-40 min</p></div>
-                <div class="knapper">
-                    <span> <a href="#">Læs mere</a></span>
-                    <span> <a href="#">Tilføj</a></span>
+                <div class="details">
+                    <p class="beskrivelse">Vegetarisk sushi</p>
+        
+                    <div class="tids-detaljer">
+                        <i class="fas fa-clock"></i>
+                        <p class="tid">20-30 min</p>
+                    </div>
+                    <button class="læs-mere-knap">Læs mere</button>
+                    <button class="tilføj-knap">Tilføj</button>
+                  </div>
                 </div>
             </div>
 
-
-
-
         </section>
-        <section class="vælgknap">
-            <span ><a href="#">Vælg</a></span>
+        <section id="vælg">
+            <span class="vælg-knap">
+                <a href="#">Vælg</a>
+            </span>
         </section>
         
 
@@ -188,3 +204,5 @@
     <script src="javascript/script.js"></script>
 </body>
 </html>
+
+
