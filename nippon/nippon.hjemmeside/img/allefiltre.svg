@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 911.92 639.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1b;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 40px;
+      }
+
+      .cls-2 {
+        letter-spacing: .01em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #254596;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <circle class="cls-4" cx="751.05" cy="122.2" r="104.59"/>
+  <text class="cls-1" transform="translate(660.27 133.94)"><tspan class="cls-2" x="0" y="0">I</tspan><tspan class="cls-3" x="9.96" y="0">ngen filt</tspan><tspan class="cls-5" x="148.84" y="0">r</tspan><tspan class="cls-3" x="161.52" y="0">e</tspan></text>
+</svg>

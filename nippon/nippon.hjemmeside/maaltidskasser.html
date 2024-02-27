@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="måltidskasser, japansk mad, nem mad, billig aftensmad, inspiration til aftensmad,">
+    <meta name="description" content="Nippon måltidskasser ">
+    <title>Nippon Måltidskasser</title>
+    <!-- Link til favicon -->
+    <link rel="shortcut icon" href="images-nippon/favicon.png">
+    <!-- Link til font awesome iconerne -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <!-- Link til stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <header>
+            <!-- navigations bar med logo i venstre side -->
+            <nav class="nav"> 
+                <div class="nav-logo">
+                <img class="logo" src="img/logo.png" alt="nippon-logo">    
+                </div>
+                <div class="nav-menu">
+                    <ul>
+                        <li class="current" id="maaltidskasser"> <a href="maaltidskasser.html">Måltidskasser </a></li>
+                        <li id="infographic"> <a href="infographic.html"> Sådan fungere det</a></li>
+                        <li  id="error"> <a href="error.html"> Om os</a></li>
+                    </ul>
+                </div>
+                <div class="søgefelt"> <i class="fas fa-search"></i></div>
+                <div class="login"> <img src="img/login.png" alt="login" id="login-ikon"></div>
+                <div class="kurv"> <img src="img/kurv.webp" alt="indkøbskurv" id="indkøbskurv"></div>
+            </nav>
+        </header>
+
+        <main>
+            <h1 class="overskrift-maaltidskasse">
+                Måltidskasser
+            </h1>
+
+            <div class="maaltidskasser-txt">
+
+            <p class="brødtekst-maaltidskasser">
+                Vores måltidskasser er udarbejdet af 
+                vores kokke der har specialiseret sig i det japanske køkken. 
+                <br>
+                Hver uge laver de nye menuer, til måltidskasserne, sådan du altid 
+                får nye og spændende retter, i din hverdag. 
+                <br>
+                <br>
+                Du kan vælge en af de 
+                spændende måltidskasser vores kokken nøje har sat sammen, eller du kan
+                special lave din egen måltidskasse, der passer til dine behov og din hverdag
+            </p>
+            </div>
+
+            <!-- filterings ikoner -->
+            <div id="filter-buttons">
+                <img src="img/chili-ikon.webp" alt="filter1" data-filter="filter1">
+                <img src="img/fisk.webp" alt="filter2" data-filter="filter2">
+                <img src="img/glutenfri.webp" alt="filter3" data-filter="filter3">
+                <img src="img/laktosefri.webp" alt="filter4" data-filter="filter4">
+                <img src="img/vegetarisk.webp" alt="filter5" data-filter="filter5">
+                <img src="img/vegansk.webp" alt="filter6" data-filter="filter6">
+                <img src="img/allefiltre.png" alt="all" data-filter="all">
+
+            </div>
+
+          <!-- måltidskasser -->
+<section class="image-section" id="imageSection">
+    <!-- billede 1 -->
+    <div class="row">
+      <div class="image-item" data-filter="filter2 filter3 filter4 filter5 filter6 all">
+        <div class="circle-container">
+          <div class="circle-background" >
+            <img src="img/måltidskasse-laks.png" alt="familiekassen" id="billed1">
+          </div>
+
+          <div class="details">
+            <p class="beskrivelse">Familie-kassen</p>
+
+            <div class="tids-detaljer">
+                <i class="fas fa-clock"></i>
+                <p class="tid">20-30 min</p>
+            </div>
+            <button class="læs-mere-knap">Læs mere</button>
+            <button class="tilføj-knap">Tilføj</button>
+          </div>
+        </div>
+      </div>
+      <!-- billede 2 -->
+      <div class="image-item" data-filter="filter5 filter1 filter2 all">
+        <div class="circle-container">
+          <div class="circle-background" >
+            <img src="img/måltidskasse-protein.png" alt="kvikkassen" id="billed2">
+          </div>
+          <div class="details">
+            <p class="beskrivelse">Kvik-kassen</p>
+
+            <div class="tids-detaljer">
+                <i class="fas fa-clock"></i>
+                <p class="tid">20-30 min</p>
+            </div>
+            <button class="læs-mere-knap">Læs mere</button>
+            <button class="tilføj-knap">Tilføj</button>
+          </div>
+        </div>
+      </div>
+      <!-- billede 3 -->
+      <div class="image-item" data-filter="filter2 filter1 all">
+        <div class="circle-container">
+          <div class="circle-background" >
+            <img src="img/måltidskasse.png" alt="proteinkassen" id="billed3">
+          </div>
+          <div class="details">
+            <p class="beskrivelse">Protein-kassen</p>
+
+            <div class="tids-detaljer">
+                <i class="fas fa-clock"></i>
+                <p class="tid">20-30 min</p>
+            </div>
+            <button class="læs-mere-knap">Læs mere</button>
+            <button class="tilføj-knap">Tilføj</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- billede 4 -->
+    <div class="row">
+      <div class="image-item" data-filter="filter5 filter2 filter1 all">
+        <div class="circle-container">
+          <div class="circle-background" >
+            <img src="img/måltidskasse-protein.png" alt="studiekassen" id="billed4">
+          </div>
+          <div class="details">
+            <p class="beskrivelse">Studie-kassen</p>
+
+            <div class="tids-detaljer">
+                <i class="fas fa-clock"></i>
+                <p class="tid">20-30 min</p>
+            </div>
+            <button class="læs-mere-knap">Læs mere</button>
+            <button class="tilføj-knap">Tilføj</button>
+          </div>
+        </div>
+      </div>
+      <!-- billede 5 -->
+      <div class="image-item" data-filter=" all filter1 filter2 filter3 filter4 filter5 filter6">
+        <div class="circle-container">
+          <div class="circle-background" >
+            <img src="img/måltidskasse-laks.png" alt="lav-selv-kassen" id="billed5">
+          </div>
+          <div class="details">
+            <p class="beskrivelse">Lav-selv-kassen</p>
+
+            <div class="tids-detaljer">
+                <i class="fas fa-clock"></i>
+                <p class="tid">20-30 min</p>
+            </div>
+            <button class="læs-mere-knap">Læs mere</button>
+            <button class="tilføj-knap">Tilføj</button>
+          </div>
+        </div>
+      </div>
+      <!-- billede 6 -->
+      <div class="image-item" data-filter="filter3 filter5 filter1 all">
+        <div class="circle-container">
+          <div class="circle-background">
+            <img src="img/måltidskasse.png" alt="vegetarkassen" id="billed6">
+          </div>
+          <div class="details">
+            <p class="beskrivelse">Vegetar-kassen</p>
+
+            <div class="tids-detaljer">
+                <i class="fas fa-clock"></i>
+                <p class="tid">20-30 min</p>
+            </div>
+
+            <button class="læs-mere-knap">Læs mere</button>
+            <button class="tilføj-knap">Tilføj</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+              
+              <footer>
+                <div class="footer-top">
+                    <img src="img/japanske huse.webp" alt="footerimg">
+                    <img src="img/japanske huse.webp" alt="footerimg">
+                    <img src="img/japanske huse.webp" alt="footerimg">
+                    
+                  </div>
+            </footer>
+        
+            <footer>
+        
+                <section id="info">
+                    <p>Kontakt: <br>
+                     nippon@gmail.com <br>
+                     Tlf. 21222324
+                 </p> 
+                 
+                       
+                        
+                     
+                 </section>
+                 <section id="medier">
+                     <a href="https://www.google.com/search?q=instagram&rlz=1C5CHFA_enDK1036DK1036&oq=instagram+&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7Mg0IARAAGIMBGLEDGIAEMgoIAhAAGLEDGIAEMgYIAxBFGDwyBggEEEUYPDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDE3MTFqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8"><i class="fab fa-instagram"></i></a>
+                     <a href="https://www.google.com/search?q=facebook&rlz=1C5CHFA_enDK1036DK1036&oq=facebook+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTISCAEQABhDGIMBGLEDGIAEGIoFMhIIAhAAGEMYgwEYsQMYgAQYigUyDQgDEAAYgwEYsQMYgAQyBggEEEUYPDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDM1ODVqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8"><i class="fab fa-facebook"></i></a>
+                 </section>
+         
+            </footer>
+              
+              
+              
+              
+        </main>
+
+    
+    <script src="javascript/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</body>
+</html>
