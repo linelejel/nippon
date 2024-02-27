@@ -1,0 +1,15 @@
+1. projekt 2. semester, vinter 2024 - Multimediedesigneruddannelsen, Erhvervsakademiet Aarhus
+Nippon måltidskasser  
+
+/* Team */
+Emily Bach Meyer (eaa23ebm@students.eaaa.dk)
+Line Krause-Kjær (eaa23llkk@students.eaaa.dk)
+Mia Smaakjær Lauridsen (eaa23msla@students.eaaa.dk) 
+Regitze Schantz Johnsson (eaa23rsjo@students.eaaa.dk)
+
+/* Krediteringer */
+Mockup af måltidskasse-boksen: er fra  
+Billeder og videoer: er taget af gruppen, nogle enkelte billeder er taget fra Unsplash.com
+Ikonserie er lavet af gruppen. Kun sociale medie ikoner i footeren er hentet fra Font-awesome
+
+
