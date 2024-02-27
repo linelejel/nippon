@@ -2,7 +2,7 @@
 // javascript til måltidskasser filtrerigns side
 
 document.addEventListener('DOMContentLoaded', function () {
-    const filterButtons = document.querySelectorAll('#filter-buttons img');
+    const filterButtons = document.querySelectorAll('#filter-buttonss img');
     const imageItems = document.querySelectorAll('.image-item');
   
     filterButtons.forEach(button => {
