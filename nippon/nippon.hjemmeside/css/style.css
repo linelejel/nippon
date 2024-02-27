@@ -285,6 +285,10 @@ span.forside-knap a{
   font-style: normal;
 }
 
+div.filtrerings-overskrift, p {
+  text-align: center;
+}
+
 /* styling af beskrivelse af vores måltidskasser */
 .brødtekst-maaltidskasser-side{
   display: flex;
