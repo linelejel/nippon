@@ -9,6 +9,8 @@
  }
 
 
+
+
  /* styling af navbar */
  header{
    position: sticky;
@@ -119,7 +121,7 @@
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Katibeh", serif;
   color: #344396;
   font-size: 4rem;
   font-weight: 400;
@@ -267,30 +269,19 @@ span.forside-knap a{
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Katibeh", serif;
   color: #344396;
   font-size: 4rem;
   font-weight: 400;
 }
 
 /* styling af beskrivelse af vores måltidskasser */
-.brødtekst-maaltidskasser-side{
+.brødtekst-maaltidskasser{
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
-  font-family: "KoHo", sans-serif ;
-  text-align: justify;
   font-weight: normal;
-}
-
-/* styling af filterings tekst */
-.filterings-overskrift{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  font-family: "KoHo", sans-serif ;
-  font-size: 2rem;
+  text-align: justify;
 }
 
 /* styling af tekstboksen */
@@ -355,7 +346,7 @@ span.forside-knap a{
 .tid {
   color: #344396;
   margin-left: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 
 }
 
@@ -365,24 +356,16 @@ span.forside-knap a{
   justify-content: center;
 }
 
-.beskrivelse{
+p {
   margin-top: 10px;
   font-weight: bold;
-  font-size: 2rem;
 }
 
-<<<<<<< Updated upstream
-
-
-span.måltidskasse-læs-mere-knap,
-span.måltidskasse-tilføj-knap {
-  background-color: white;
-=======
 .læs-mere-knap,
 .tilføj-knap {
   background-color: #f9f2f0;
->>>>>>> Stashed changes
   color: #9b282c;
+  padding: 8px 16px;
   border: 2px solid #9b282c;
   border-radius: 25px;
   text-align: center;
@@ -394,13 +377,8 @@ span.måltidskasse-tilføj-knap {
   padding: 15px 20px;
 }
 
-<<<<<<< Updated upstream
-span.måltidskasse-tilføj-knap {
-  background-color: white;
-=======
 .tilføj-knap {
   background-color: #f9f2f0;
->>>>>>> Stashed changes
   margin-top: 0;
 }
 span.måltidskasse-læsmere-knap{
@@ -424,32 +402,34 @@ span.måltidskasse-læsmere-knap:hover{
 }
 
 
+/* styling af ikoner til ved siden af billederne */
+
+
 /* styling af hover over knapperne */
-span.måltidskasse-læs-mere-knap:hover{
+.læs-mere-knap:hover{
   background-color: #f9f2f0;
   opacity: 0.8;
 }
 
-span.måltidskasse-tilføj-knap:hover {
+.tilføj-knap:hover {
   background-color: #f9f2f0;
   opacity: 0.8;
 }
 
 /* styling af filterings delen */
-#filter-buttonss img {
+#filter-buttons img {
   width: 50px; /* Juster bredden efter behov */
   height: 50px; /* Juster højden efter behov */
   margin: 5px;
   cursor: pointer;
 }
 
-#filter-buttonss{
+#filter-buttons{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-  margin-bottom: 80px;
- 
+  margin-bottom: 10px;
 }
 
 #filter-buttons img:hover{
@@ -461,6 +441,8 @@ span.måltidskasse-tilføj-knap:hover {
   font-style: normal;
   font-size: 1.2rem;
  }
+
+
 
 
 
@@ -598,18 +580,13 @@ h2 {
 
 
 
-
-
-
-
-
 p {
   font-family: "KoHo", sans-serif;
 }
 
 
 
- /* styling af footer */
+ /* ---------styling af footer --------*/
  footer {
    display: flex;
    justify-content: space-between; 
