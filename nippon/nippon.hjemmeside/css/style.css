@@ -614,6 +614,105 @@ span {
 }
 
 
+/*Styling af kurv.html*/
+
+.kurv-box{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.kurv-box p{
+  padding: 0.5rem;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  width: 100%;
+  margin: auto;
+}
+
+.kurv-txt{
+  text-align: left;
+}
+
+.kurv-txt-pris{
+  text-align: right;
+  justify-content: right;
+}
+
+
+.dot-line{
+  border: none;
+  border-top: 3px dotted #344396;
+  margin: auto;
+  width: 80%;
+  padding: 1rem;
+}
+
+/*Næste knap*/
+
+.naeste{
+  margin: auto;
+}
+
+.naeste-knap{
+  transition: transform 0.3s ease-in-out;
+  padding: 1rem;
+}
+
+.naeste-knap:hover{
+  transform: scale(1.1);
+}
+
+.naeste a{
+  text-decoration: none;
+  color: #9b282c;
+  padding: 0.5rem;
+}
+
+
+
+/*''I alt'' linjen*/
+
+.kurv-box-ialt{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.kurv-box-ialt p{
+  font-weight: bold;
+}
+
+.kurv-ialt{
+  text-align: left;
+  padding: 0.5rem;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3rem;
+  margin: auto;
+  width: 80%;
+}
+
+.kurv-txt-pris-ialt{
+  text-align: right;
+  justify-content: right;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+
 
 
  
