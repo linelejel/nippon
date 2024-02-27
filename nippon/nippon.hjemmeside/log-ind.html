@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="måltidskasser, japansk mad, nem mad, billig aftensmad, inspiration til aftensmad,">
+    <meta name="description" content="Nippon måltidskasser ">
+    <meta name="author" content="Emily Meyer, Regitze Johnson, Line Lejel og Mia Smaakjær">
+    <meta name="geo.placename" content="Aarhus, Denmark">
+    <title>Nippon Måltidskasser</title>
+    <!-- Link til favicon -->
+    <link rel="shortcut icon" href="images-nippon/favicon.png">
+    <!-- Link til font awesome iconerne -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--Link til 'Katibeh'-font fra google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" rel="stylesheet">
+<!--Link til KoHo font fra Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Katibeh&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital@0;1&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <!-- Link til stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+
+
+<!--BODY START-->
+<body>
+
+<!--NAVIGATIONSBAR-->
+
+ <header>
+   
+    <nav class="nav">  <!-- navigations bar med logo i venstre side -->
+        <div class="nav-logo">
+        <img class="logo" src="img/logo.png" alt="nippon-logo">    
+        </div>
+        <div class="nav-menu">
+            <ul>
+                <li id="maaltidskasser"> <a href="maaltidskasser.html">Måltidskasser </a></li>
+                <li id="infographic"> <a href="infographic.html"> Sådan fungere det</a></li>
+                <li id="error"> <a href="error.html"> Om os</a></li>
+            </ul>
+        </div>
+        <div class="søgefelt"> <i class="fas fa-search"></i></div>
+        <div class="login"> <img src="img/login.png" alt="login" id="login-ikon"></div>
+        <div class="kurv"> <img src="img/kurv.webp" alt="indkøbskurv" id="indkøbskurv"></div>
+    </nav>
+ </header>
+
+
+
+
+
+
+<!--LOG IND-BOX-->
+<div class="ny-bruger">
+
+    <p class="log-ind2">Log ind</p> <!--'Log ind'-overskift-->
+
+    <form action="betaling.html"> <!-- action får den til at gå til den ønskede html fil efter man har udfyuldt boksene-->
+        
+        <!--Felter med mini-overskift + udfyld-felt-->
+        <label for="brugernavn">Brugernavn</label> <!--Mini-overskrift-->
+        <input type="text" id="brugernavn" name="brugernavn" required> <!--Udfyld-felt-->
+
+        <label for="adgangskode">Adgangskode</label><!--Mini-overskrift-->
+        <input type="password" id="adgangskode" name="adgangskode" required><!--Udfyld-felt-->
+
+        <input type="submit" value="Log ind"> <!--Log ind-knap-->
+
+       
+    </form> <!--Udfyld-felter SLUT-->
+
+     <!-- 'OPRET NY'-KNAP - SPAN IKKE INPUT TYPE SUBMIT - ANDRE CSS REGLER -->
+     <a href="opret-bruger.html"><input type="button" value="Opret ny"></a>
+
+</div> <!--Log Ind-box SLUT-->
+   
+  
+
+ </body> <!--Body SLUT-->
+
+</html>
+  
