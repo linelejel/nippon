@@ -8,7 +8,7 @@ Mia Smaakjær Lauridsen (eaa23msla@students.eaaa.dk)
 Regitze Schantz Johnsson (eaa23rsjo@students.eaaa.dk)
 
 /* Krediteringer */
-Mockup af måltidskasse-boksen: er fra  
+Mockup af måltidskasse-boksen: er fra mockup-design.com  
 Billeder og videoer: er taget af gruppen, nogle enkelte billeder er taget fra Unsplash.com
 Ikonserie er lavet af gruppen. Kun sociale medie ikoner i footeren er hentet fra Font-awesome
 
