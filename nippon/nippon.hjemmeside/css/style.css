@@ -423,7 +423,6 @@ footer a {
   height: 40rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
- 
 }
 
 .infographic-div img{
@@ -435,6 +434,27 @@ footer a {
  display: flex;
  flex-direction: row;
 }
+
+span {
+  border-color: #9b282c;
+  border-style: solid;
+  border-radius: 25px;
+  padding: 0.5rem;
+  margin-left: -25rem;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  box-shadow: 10px 10px 5px #f1dfdd;
+
+}
+
+.btn1{
+  margin-top: 40rem;
+  padding-right: 3rem;
+  background-color: #f9f2f0;
+}
+
 
 /*Styling af betaling.html*/
 
