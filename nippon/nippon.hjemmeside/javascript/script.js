@@ -32,6 +32,23 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  // javascript til valg side
+  // function velgAntall(num) {
+    const buttons = document.getElementsByClassName('person-knap');
+  
+  function changeColor(event) {
+    event.target.style.backgroundColor = "red"; 
+  }
+
+    buttons.addEventListener("click", changeColor); 
+  
+
+  //   var selectedButton = document.querySelector('.person-knapper .person-knap:nth-child(' + num + ')');
+  //   selectedButton.classList.add('person-knap-selected');
+  // }
+  
+  
+
 
 
   
