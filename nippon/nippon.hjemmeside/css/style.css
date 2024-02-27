@@ -96,149 +96,154 @@
    justify-content: flex-end;
  }
 
+ /* -------------------------------------styling af forside----------------------- */
  /* styling af video på forsiden */
  .video-bigphoto {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   overflow: hidden;
-   margin-top: 2vh;
-   height: 100vh;
-   padding: 0 150px 0 150px;
- }
- 
- video {
-   width: 100%;
-   height: auto; 
-   max-width: 100%;
- }
- 
- /* styling af overskrift */
- h1{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-top: 2rem;
-   margin-bottom: 2rem;
-   font-family: "Katibeh", serif;
-   color: #344396;
-   font-size: 4rem;
-   font-weight: 400;
- }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 5vh;
+  height: 80vh;
+  padding: 0 150px 0 150px;
+}
 
- /* styling af måltidskasser knap */
-.mealbtn{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 10px 20px; 
-   background-color: #9b282c; 
-   color: white; 
-   border: none;
-   cursor: pointer;
+.video-bigphoto video {
+  width: 100%;
+  height: auto; 
+  max-width: 100%;
+}
+
+/* styling af overskrift */
+.overskrift-forside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Katibeh", serif;
+  color: #344396;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+/* styling af måltidskasser knap */
+
+
+.forside-knapboks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-left: 25rem;
+}
+
+span.forside-knap{
+  text-decoration: none;
+   border: 2px solid #9b282c;
+   background-color: #9b282c;
+   padding: 1rem;
+   font-size: 1rem;
    font-family: "KoHo", sans-serif ;
-   font-size: 1.2rem;
- }
+}
 
- .knap{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-bottom: 5rem;
- }
- /* hover funktion ved knap */
- .mealbtn:hover{
-   opacity: 0.8;
- }
+span.forside-knap a{
+  color: white;
+}
+
+/* forside knap hover */
+.forside-knapboks:hover{
+  opacity: 0.8;
+}
 
 
- 
+/* styling af farvoritkasserne */
+.farvoritter-forside {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
 
- /* styling af farvoritkasserne */
- .farvoritter {
-   display: flex;
-   justify-content: space-around; 
-   align-items: center;
-   padding-left: 20rem;
-   padding-right: 20rem;
- }
- 
- .farvorit-item {
-   text-align: center;
-   margin-right: 20px;
-   width: 400px;
- }
+.farvorit-item-forside {
+  text-align: center;
+  margin-right: 20px;
+  width: 400px;
+}
 
- /* styling af farvoritkasser billeder */
- #vegetarfarvorit,
- #familiefarvorit,
- #studiefarvorit{
-   height: auto;
-   width: 30vw;
-  background-color: transparent;
- }
+/* styling af farvoritkasser billeder */
+#vegetarfarvorit,
+#familiefarvorit,
+#studiefarvorit{
+  height: auto;
+  width: 30vw;
+ background-color: transparent;
+}
 
- .farvorit-item img {
-   width: 100%; /* Sørg for, at billedet inden i cirklen passer inden for cirklen */
-   height: auto;
- }
- /* styling af cirkel bag ved billeder */
- .circle-background{
-   background-color: white;
-   border-radius: 50%;
-   padding: 5px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
- }
+.farvorit-item img {
+  width: 100%; /* Sørg for, at billedet inden i cirklen passer inden for cirklen */
+  height: auto;
+}
+/* styling af cirkel bag ved billeder */
+.circle-background-forside{
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
- /* hover effekt på kasserne */
- .farvorit-item:hover {
-   opacity: 0.8; /* Juster gennemsigtigheden ved hover efter dine præferencer */
- }
+/* hover effekt på kasserne */
+.farvorit-item:hover {
+  opacity: 0.8; /* Juster gennemsigtigheden ved hover efter dine præferencer */
+}
 
- /* styling af tekst under farvoritkasser */
- .farvoritter p{
-   color: #344396;
-   font-family: "KoHo", sans-serif;
-   font-size: 1.5rem;
- }
- 
+/* styling af tekst under farvoritkasser */
+.farvoritter-forside p{
+  color: #344396;
+  font-family: "KoHo", sans-serif;
+  font-size: 1.5rem;
+}
+
 /* styling af nippons mission,vision og værdier */
 .missionfelt {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   align-items: center;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-   margin-top: 4rem;
-   padding: 1rem 0 1rem 0;
-   margin-bottom: 4rem;
- }
- 
- .mission-item {
-   text-align: center;
-   width: 300px; /* Juster bredden efter behov */
-   margin-bottom: 20px; /* Juster afstanden mellem mission-items efter behov */
- }
- 
- .mission-item img {
-   max-width: 100%; /* Sørg for, at billedet ikke strækker sig ud over containeren */
-   height: auto;
- }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 4rem;
+  padding: 1rem 0 1rem 0;
+  margin-bottom: 4rem;
+}
+
+.mission-item {
+  text-align: center;
+  width: 300px; /* Juster bredden efter behov */
+  margin-bottom: 20px; /* Juster afstanden mellem mission-items efter behov */
+}
+
+.mission-item img {
+  max-width: 100%; /* Sørg for, at billedet ikke strækker sig ud over containeren */
+  height: auto;
+}
 
 
- /* styling af billederne i missionfelt */
- #værdier, 
- #vision,
- #mission{
-   height: auto;
-   width: 5rem;
- }
+/* styling af billederne i missionfelt */
+#værdier, 
+#vision,
+#mission{
+  height: auto;
+  width: 5rem;
+}
 
- /* styling af brødtekst ved missionfelt */
- .missionfelt p{
-   font-family: "KoHo", sans-serif ;
-   font-size: 0.9rem
- }
+/* styling af brødtekst ved missionfelt */
+.missiontxt{
+  font-family: "KoHo", sans-serif ;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
 
  /* styling af billeder over footer */
  .footer-top {
@@ -255,7 +260,181 @@
    background-color: #f9f2f0;
  }
 
+/* ------------------------måltidskasser siden----------------- */
 
+/* styling af overskrift */
+.overskrift-maaltidskasse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Katibeh", serif;
+  color: #344396;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+/* styling af beskrivelse af vores måltidskasser */
+.brødtekst-maaltidskasser{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-weight: normal;
+  text-align: justify;
+}
+
+/* styling af tekstboksen */
+.maaltidskasser-txt{
+  width: 45%;
+  margin: auto;
+}
+
+/* styling af måltidskasserne, sådan de er på række  */
+.image-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.image-item {
+  text-align: center;
+  width: 30%; /* Juster bredden efter behov */
+  margin-bottom: 20px;
+}
+
+.circle-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circle-background {
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+  padding: 1px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.circle-background img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.details {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.fas.fa-clock {
+  color: #344396;
+
+}
+
+.tid {
+  color: #344396;
+  margin-left: 15px;
+  margin-bottom: 10px;
+
+}
+
+.tids-detaljer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.læs-mere-knap,
+.tilføj-knap {
+  background-color: white;
+  color: #9b282c;
+  padding: 8px 16px;
+  border: 2px solid #9b282c;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 5px;
+  cursor: pointer;
+  padding: 15px 20px;
+}
+
+.tilføj-knap {
+  background-color: white;
+  margin-top: 0;
+}
+span.måltidskasse-læsmere-knap{
+  background-color: white;
+  color: #9b282c;
+  padding: 8px 16px;
+  border: 2px solid #9b282c;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 5px;
+  cursor: pointer;
+  padding: 15px 20px;
+  margin-left: 10px;
+}
+span.måltidskasse-læsmere-knap:hover{
+  background-color: #f9f2f0;
+  opacity: 0.8;
+}
+
+
+/* styling af ikoner til ved siden af billederne */
+
+
+/* styling af hover over knapperne */
+.læs-mere-knap:hover{
+  background-color: #f9f2f0;
+  opacity: 0.8;
+}
+
+.tilføj-knap:hover {
+  background-color: #f9f2f0;
+  opacity: 0.8;
+}
+
+/* styling af filterings delen */
+#filter-buttons img {
+  width: 50px; /* Juster bredden efter behov */
+  height: 50px; /* Juster højden efter behov */
+  margin: 5px;
+  cursor: pointer;
+}
+
+#filter-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#filter-buttons img:hover{
+  opacity: 0.8;
+}
 
 
 
