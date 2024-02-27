@@ -417,7 +417,41 @@ footer a {
    opacity: 0.8;
  }
  
- 
+ /*Styling af arigatou.html*/
+
+.arigatou{
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #344396;
+}
+
+.arigatou1{
+  padding: 0.75rem;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.bekraeft{
+  border: 1px solid #9b282c; /* Tynd rød linje rundt om boksen */
+  padding: 20px;
+  text-align: center;
+  width: 40%;
+  margin: auto; /* Centrerer boksen */
+  border-radius: 45px;
+  margin-top: 7rem;
+  background-color: white;
+  box-shadow: 10px 10px 5px #f1dfdd;
+  padding: 2rem;
+}
+
+
+
+
+
 
  
  
