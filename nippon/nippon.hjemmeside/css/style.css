@@ -483,7 +483,14 @@ span.måltidskasse-læsmere-knap:hover{
  }
 
  span.vælg-knap {
-  margin-left: 50% ;
+  margin-left: 50%;
+ }
+
+ .uge-menu{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
  }
  
  .læs-mere-knap,
@@ -532,8 +539,11 @@ img.vegetarimg-content {
 
 .vegetar-content {
   padding-left: 5rem;
-  color: #344693;
   line-height: 2;
+  font-family: "Jost", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-weight: 300;
 
 }
 
