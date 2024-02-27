@@ -1,5 +1,6 @@
 "use strict";
-// javascript til måltidskasser filterigns side
+// javascript til måltidskasser filtrerigns side
+
 document.addEventListener('DOMContentLoaded', function () {
     const filterButtons = document.querySelectorAll('#filter-buttons img');
     const imageItems = document.querySelectorAll('.image-item');
