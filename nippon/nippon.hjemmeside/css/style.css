@@ -249,9 +249,9 @@
 
 
 
-/*Herstyles undersiden vegetarkassen*/
+/*-----------------Herstyles undersiden vegetarkassen-----------------*/
  /*Her styler jeg min tilbage knap*/
- span {
+ span.knapper {
   border-color: #9b282c;
   border-style: solid;
   border-radius: 25px;
