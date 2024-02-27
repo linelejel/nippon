@@ -7,6 +7,10 @@
  body{
    background-color: #f9f2f0;
  }
+
+
+
+
  /* styling af navbar */
  header{
    position: sticky;
@@ -30,6 +34,7 @@
    padding: 0;
    display: flex;
 
+
  }
 
  .nav-menu ul li{
@@ -43,6 +48,10 @@
    display: block;
    font-size: 1.5rem;
    margin-right: 6rem;
+   font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   
  }
 
  /* styling af hover ved navbar */
@@ -142,6 +151,9 @@
    opacity: 0.8;
  }
 
+
+ 
+
  /* styling af farvoritkasserne */
  .farvoritter {
    display: flex;
@@ -233,7 +245,7 @@
    display: flex;
    justify-content: space-around;
    align-items: center;
-   padding: 20px 0 0 0; /* Juster padding efter dine præferencer */
+   padding: 20px 0 0 0; 
    background-color: #f9f2f0;
  }
  
@@ -242,6 +254,142 @@
    height: 2.32rem;
    background-color: #f9f2f0;
  }
+
+
+ #info p{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+ }
+
+
+
+
+
+
+/*-----------------Her styles undersiden vegetarkassen-----------------*/
+ /*Her styler jeg min tilbage knap*/
+ span.knapper {
+  border-color: #9b282c;
+  border-style: solid;
+  border-radius: 25px;
+  padding: 0.5rem;
+  margin-left: 5rem;
+  font-family: "KoHo", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+}
+span a {
+  text-decoration: none;
+  list-style: none;
+  color: #9b282c;
+}
+
+.vegetar-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0 4.5rem;
+  
+}
+
+img.vegetarimg-content {
+  width: 100%;
+}
+
+.vegetar-content {
+  padding-left: 5rem;
+  color: #344693;
+  line-height: 2;
+
+}
+
+h2 {
+  padding-top: 3rem;
+  color: #344693;
+  text-align: center;
+}
+
+/* styling af Ugens menu under vegetarkassen*/
+.menu-container {
+  display: flex;
+  justify-content: space-around; /* Juster efter præference: space-between, space-evenly osv. */
+  align-items: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+}
+
+.menu-item {
+  text-align: center;
+  margin-right: 20px;
+}
+
+/* styling af retter under vegetarkassen billeder */
+#rispapirsruller,
+#okonomiyaki,
+#vegetarsushi{
+  height: auto;
+  width: 20vw;
+ background-color: transparent;
+ 
+}
+
+#tempuratofu {
+  width: 20vw;
+  margin-left: -1.5rem;
+}
+
+
+.menu-item img {
+  width: 100%; /* Sørg for, at billedet inden i cirklen passer inden for cirklen */
+  height: auto;
+}
+/* styling af cirkel bag ved billeder */
+.circle-background{
+  
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img#ur {
+  width: 20%;
+}
+div.tid {
+  display: flex;
+  align-items: center;
+  margin-left: 6rem;
+  margin-top: 1rem;
+}
+
+div.knapper {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+
+}
+
+div.knapper,span {
+  
+  margin-left: 3rem;
+}
+
+section.vælgknap {
+  margin-top: 6rem ;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-family: katibeh;
+  
+}
+
+p {
+  font-family: katibeh;
+}
+
 
  /* styling af footer */
  footer {
@@ -277,12 +425,19 @@ footer a {
 /* ------------------------måltidskasser siden----------------- */
 
 /* styling af beskrivelse af vores måltidskasser */
+
+
+
 .brødtekst-maaltidskasser{
    display: flex;
    justify-content: center;
    margin-bottom: 2rem;
    font-weight: normal;
    text-align: justify;
+   font-family: "Jost", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+
 }
 
 /* styling af tekstboksen */
@@ -411,6 +566,7 @@ footer a {
    align-items: center;
    margin-top: 10px;
    margin-bottom: 10px;
+   padding: 3rem;
  }
 
  #filter-buttons img:hover{
@@ -454,6 +610,109 @@ span {
   padding-right: 3rem;
   background-color: #f9f2f0;
 }
+/*Styling af log-ind.html*/
+
+/*Styling af logind-knap*/
+input[type="submit"] {
+  background-color: #FCF9F9;
+  font-size: 1.3rem;
+  transition: transform 0.3s ease-in-out;
+ }
+
+ input[type="submit"]:hover{
+   transform: scale(1.1);
+ }
+
+ /*Styling af overskift ''LOG IND''*/
+.log-ind2{
+   background-color: white;
+   color: #344396;
+   cursor: pointer;
+   font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+/*Styling af Opret Ny-knap*/
+
+
+input[type="button"]{
+  width: 50%;
+  font-size: 1.2rem;
+  color: #f1dfdd;
+  background-color: #344396;
+}
+
+/*Styling af opret-bruger.html*/
+.ny-bruger {
+   border: 1px solid #9b282c; /* Tynd rød linje rundt om boksen */
+   padding: 20px;
+   text-align: center;
+   width: 30%;
+   margin: auto; /* Centrerer boksen */
+   border-radius: 45px;
+   margin-top: 4rem;
+   background-color: white;
+   box-shadow: 10px 10px 5px #f1dfdd;
+ }
+ 
+ label {
+   display: block;
+   margin-bottom: 10px;
+   text-align: left;
+   margin-left: 50px;
+   background-color: white;
+   font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+   font-size: 1rem;
+   color: black;
+   margin-top: 1rem;
+ }
+ 
+ input {
+   width: 80%;
+   padding: 10px;
+   margin-bottom: 15px;
+   box-sizing: border-box;
+   border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
+   border-radius: 60px;
+   background-color: #FCF9F9;
+ }
+ 
+ input[type="submit"] {
+   background-color: white;
+   color: #9b282c;
+   cursor: pointer;
+   width: 50%;
+   font-family: "Jost", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   box-shadow: 5px 5px 2.5px #f1dfdd;
+ }
+
+ form{
+   background-color: white;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 /*Styling af betaling.html*/
@@ -482,6 +741,105 @@ span {
   font-weight: 500;
   font-style: normal;
   color: #344396;
+}
+
+
+/*Styling af kurv.html*/
+
+.kurv-box{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.kurv-box p{
+  padding: 0.5rem;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  width: 100%;
+  margin: auto;
+}
+
+.kurv-txt{
+  text-align: left;
+}
+
+.kurv-txt-pris{
+  text-align: right;
+  justify-content: right;
+}
+
+
+.dot-line{
+  border: none;
+  border-top: 3px dotted #344396;
+  margin: auto;
+  width: 80%;
+  padding: 1rem;
+}
+
+/*Næste knap*/
+
+.naeste{
+  margin: auto;
+}
+
+.naeste-knap{
+  transition: transform 0.3s ease-in-out;
+  padding: 1rem;
+}
+
+.naeste-knap:hover{
+  transform: scale(1.1);
+}
+
+.naeste a{
+  text-decoration: none;
+  color: #9b282c;
+  padding: 0.5rem;
+}
+
+
+
+/*''I alt'' linjen*/
+
+.kurv-box-ialt{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.kurv-box-ialt p{
+  font-weight: bold;
+}
+
+.kurv-ialt{
+  text-align: left;
+  padding: 0.5rem;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3rem;
+  margin: auto;
+  width: 80%;
+}
+
+.kurv-txt-pris-ialt{
+  text-align: right;
+  justify-content: right;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
 }
 
 
@@ -517,6 +875,36 @@ span {
   background-color: white;
   box-shadow: 10px 10px 5px #f1dfdd;
   padding: 2rem;
+}
+
+ /*Styling ''Error 404''html*/
+
+ .error-txt2{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 4rem;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.7rem;
+  margin-top: 12rem;
+}
+
+.error-txt3{
+  text-align: center;
+  font-size: 25px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+
+video {
+  width: 100%;
+  height: 45vh;
+  padding: 3rem;
 }
 
 

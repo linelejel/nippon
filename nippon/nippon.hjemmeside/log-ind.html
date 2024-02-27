@@ -32,47 +32,66 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
+
+
+
+
+<!--BODY START-->
 <body>
 
-    <header>
-        <nav class="nav">     <!-- navigations bar med logo i venstre side -->
-            <div class="nav-logo">
-            <img class="logo" src="img/logo.png" alt="nippon-logo">    
-            </div>
-            <div class="nav-menu">
-                <ul>
-                    <li id="maaltidskasser"> <a href="maaltidskasser.html">Måltidskasser</a></li>
-                    <li id="infographic"> <a href="infographic.html"> Sådan fungere det</a></li>
-                    <li id="error"> <a href="error.html"> Om os</a></li>
-                </ul>
-            </div>
-            <div class="søgefelt"> <img src="images-nippon/" alt="søgefelt"></div>
-            <div class="login"> <img src="images-nippon/" alt="login"></div>
-            <div class="kurv"> <img src="img/kurv.webp" alt="indkøbskurv" height="25px" width="25px"></div>
-        </nav>
-    </header>
+<!--NAVIGATIONSBAR-->
 
-    <!--Error 404 text-->
-
-    <div class="error-txt">
-        <h1 class="error-txt2">Siden du forsøger at tilgå findes desværre ikke,</h1>
-        <p class="error-txt3"> men vi er på sagen!</p>
-    </div>
-
-    <!--Error 404 video-->
-    <video autoplay muted>
-        <source src="img/404-animation.mp4" type="video/mp4">
-        Din browser understøtter ikke videoafspilning.
-    </video>
-
- 
-    
-
-    </body>
+ <header>
+   
+    <nav class="nav">  <!-- navigations bar med logo i venstre side -->
+        <div class="nav-logo">
+        <img class="logo" src="img/logo.png" alt="nippon-logo">    
+        </div>
+        <div class="nav-menu">
+            <ul>
+                <li id="maaltidskasser"> <a href="maaltidskasser.html">Måltidskasser </a></li>
+                <li id="infographic"> <a href="infographic.html"> Sådan fungere det</a></li>
+                <li id="error"> <a href="error.html"> Om os</a></li>
+            </ul>
+        </div>
+        <div class="søgefelt"> <i class="fas fa-search"></i></div>
+        <div class="login"> <img src="img/login.png" alt="login" id="login-ikon"></div>
+        <div class="kurv"> <img src="img/kurv.webp" alt="indkøbskurv" id="indkøbskurv"></div>
+    </nav>
+ </header>
 
 
 
- 
+
+
+
+<!--LOG IND-BOX-->
+<div class="ny-bruger">
+
+    <p class="log-ind2">Log ind</p> <!--'Log ind'-overskift-->
+
+    <form action="betaling.html"> <!-- action får den til at gå til den ønskede html fil efter man har udfyuldt boksene-->
+        
+        <!--Felter med mini-overskift + udfyld-felt-->
+        <label for="brugernavn">Brugernavn</label> <!--Mini-overskrift-->
+        <input type="text" id="brugernavn" name="brugernavn" required> <!--Udfyld-felt-->
+
+        <label for="adgangskode">Adgangskode</label><!--Mini-overskrift-->
+        <input type="password" id="adgangskode" name="adgangskode" required><!--Udfyld-felt-->
+
+        <input type="submit" value="Log ind"> <!--Log ind-knap-->
+
+       
+    </form> <!--Udfyld-felter SLUT-->
+
+     <!-- 'OPRET NY'-KNAP - SPAN IKKE INPUT TYPE SUBMIT - ANDRE CSS REGLER -->
+     <a href="opret-bruger.html"><input type="button" value="Opret ny"></a>
+
+</div> <!--Log Ind-box SLUT-->
+   
   
 
-   
+ </body> <!--Body SLUT-->
+
+</html>
+  

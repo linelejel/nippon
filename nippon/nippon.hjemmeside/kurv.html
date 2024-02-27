@@ -32,47 +32,85 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
 
-    <header>
-        <nav class="nav">     <!-- navigations bar med logo i venstre side -->
-            <div class="nav-logo">
-            <img class="logo" src="img/logo.png" alt="nippon-logo">    
-            </div>
-            <div class="nav-menu">
-                <ul>
-                    <li id="maaltidskasser"> <a href="maaltidskasser.html">Måltidskasser</a></li>
-                    <li id="infographic"> <a href="infographic.html"> Sådan fungere det</a></li>
-                    <li id="error"> <a href="error.html"> Om os</a></li>
-                </ul>
-            </div>
-            <div class="søgefelt"> <img src="images-nippon/" alt="søgefelt"></div>
-            <div class="login"> <img src="images-nippon/" alt="login"></div>
-            <div class="kurv"> <img src="img/kurv.webp" alt="indkøbskurv" height="25px" width="25px"></div>
-        </nav>
-    </header>
-
-    <!--Error 404 text-->
-
-    <div class="error-txt">
-        <h1 class="error-txt2">Siden du forsøger at tilgå findes desværre ikke,</h1>
-        <p class="error-txt3"> men vi er på sagen!</p>
-    </div>
-
-    <!--Error 404 video-->
-    <video autoplay muted>
-        <source src="img/404-animation.mp4" type="video/mp4">
-        Din browser understøtter ikke videoafspilning.
-    </video>
-
- 
+<body> <!--Body START-->
     
 
-    </body>
+<header>    <!-- navigations bar med logo i venstre side -->
+    <nav class="nav"> 
+        <div class="nav-logo">
+        <img class="logo" src="img/logo.png" alt="nippon-logo">    
+        </div>
+        <div class="nav-menu">
+            <ul>
+                <li id="maaltidskasser"> <a href="maaltidskasser.html">Måltidskasser </a></li>
+                <li id="infographic"> <a href="infographic.html"> Sådan fungere det</a></li>
+                <li id="error"> <a href="error.html"> Om os</a></li>
+            </ul>
+        </div>
+        <div class="søgefelt"> <i class="fas fa-search"></i></div>
+        <div class="login"> <img src="img/login.png" alt="login" id="login-ikon"></div>
+        <div class="kurv"> <img src="img/kurv.webp" alt="indkøbskurv" id="indkøbskurv"></div>
+    </nav>
+</header>
 
 
 
- 
+
+<!--Betalingsoplysninger box-->
+
+<div class="ny-bruger">
+
+        <p class="log-ind2">Indkøbskurv</p> <!--Overkskrift-->
+
+        <div class="kurv-box"> <!--Div med vare + pris-->
+
+           <p class="kurv-txt">1x Vegetar Måltidskasse</p>
+
+           <p class="kurv-txt-pris">320 kr.</p>
+
+        </div>
+
+
+        
+        <hr class="dot-line"><!--STIPLET LINJE-->
+    
+    
+        <div class="kurv-box"> <!--Div med levering + pris-->
+
+            <p class="kurv-txt">Levering:</p>
+    
+            <p class="kurv-txt-pris">29 kr.</p>
+    
+        </div>
+    
+    
+
+        <hr class="dot-line">   <!--STIPLET LINJE-->
+
+        
+        <div class="kurv-box-ialt">  <!--Div med Ialt + endelige pris-->
+
+                <p class="kurv-ialt">I alt:</p>
+        
+                <p class="kurv-txt-pris-ialt">349 kr.</p>
+        
+        </div>
+        
+        
+           
+         <hr class="dot-line">      <!--STIPLET LINJE-->
+
+
+
+        <div class="naeste-knap"> <!--Næste-knap-->
+            <span class="naeste"><a href="betaling.html">Næste</a></span>
+        </div>
+
+
+</div>
+
+</body>
+
+</html>
   
-
-   
