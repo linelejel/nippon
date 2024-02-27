@@ -418,7 +418,23 @@ footer a {
  }
  
 
+ /*Styling af inforgraphic.html*/
+ .infographic{
+  height: 40rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+ 
+}
 
+.infographic-div img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+.infographic-div{
+ display: flex;
+ flex-direction: row;
+}
 
 /*Styling af betaling.html*/
 
