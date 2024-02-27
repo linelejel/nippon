@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="måltidskasser, japansk mad, nem mad, billig aftensmad, inspiration til aftensmad,">
+    <meta name="description" content="Nippon måltidskasser ">
+    <meta name="author" content="Emily Meyer, Regitze Johnson, Line Lejel og Mia Smaakjær">
+    <meta name="geo.placename" content="Aarhus, Denmark">
+    <title>Nippon Måltidskasser</title>
+    <!-- Link til favicon -->
+    <link rel="shortcut icon" href="images-nippon/favicon.png">
+    <!-- Link til font awesome iconerne -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--Link til 'Katibeh'-font fra google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" rel="stylesheet">
+<!--Link til KoHo font fra Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Katibeh&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital@0;1&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <!-- Link til stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    
+
+<header>
+    <!-- navigations bar med logo i venstre side -->
+    <nav class="nav"> 
+        <div class="nav-logo">
+        <img class="logo" src="img/logo.png" alt="nippon-logo">    
+        </div>
+        <div class="nav-menu">
+            <ul>
+                <li id="maaltidskasser"> <a href="maaltidskasser.html">Måltidskasser </a></li>
+                <li id="infographic"> <a href="infographic.html"> Sådan fungere det</a></li>
+                <li id="error"> <a href="error.html"> Om os</a></li>
+            </ul>
+        </div>
+        <div class="søgefelt"> <i class="fas fa-search"></i></div>
+        <div class="login"> <img src="img/login.png" alt="login" id="login-ikon"></div>
+        <div class="kurv"> <img src="img/kurv.webp" alt="indkøbskurv" id="indkøbskurv"></div>
+    </nav>
+</header>
+
+
+
+
+
+
+<!--Betalingsoplysninger box-->
+
+<div class="ny-bruger">
+    <div class="log-ind1">
+        <p class="log-ind2">Betalingsoplysninger</p>
+    </div>
+
+    <form action="arigatou.html">
+        <!-- Navn på kortet -->
+        <label for="navnpakortet">Navn på kortet</label>
+        <input type="text" id="navnpakortet" name="navnpakortet" placeholder='Ex. Anders Jensen' required>
+
+        <!-- Gyldig til -->
+        <label for="gyldigtil">Gyldig til</label>
+        <div class="gyldig">
+            <!-- Dropdown for måneder -->
+            <select id="month" name="month" required>
+                <option value="" disabled selected>MM</option>
+                <option value="01">Januar</option>
+                <option value="02">Februar</option>
+                <option value="03">Marts</option>
+                <option value="04">April</option>
+                <option value="05">Maj</option>
+                <option value="06">Juni</option>
+                <option value="07">Juli</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">Oktober</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+
+            <!-- Dropdown for år -->
+            <select id="year" name="year" required>
+                <option value="" disabled selected>YYYY</option>
+                <!-- År -->
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+            </select>
+        </div>
+
+        <!-- CVV -->
+        <label for="cvv">CVV</label>
+        <input type="text" id="cvv" name="cvv" placeholder="CCC" required>
+
+        <!-- Betal-knap -->
+        <button type="submit" class="btn-betal">Betal nu</button>
+    </form>
+</div>
+
+
+
+
+</body>
+
+</html>
+  
