@@ -138,7 +138,7 @@
   align-items: center;
   margin: auto;
   margin-bottom: 5rem;
-  margin-left: 42rem;
+  margin-left: 40rem;
 }
 
 span.forside-knap{
@@ -971,25 +971,6 @@ body{
    justify-content: center;
 }
 
-.betalingsmetode-next {
-   height: 2rem;
-   width: 10rem;
-   color: #9b282c;
-   margin-top: 2rem;
-   box-sizing: border-box;
-   border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
-   border-radius: 60px;
-   background-color: #F9F2F0;
-   font-family: katibeh;
-   font-size: 1.5rem;
-}
-
-.betalingsmetode-next:hover {
-   background-color: #9b282c;
-   color: white;
-   transition: 0.5s;
-}
-
 .tilbageknap1 {
    height: 2rem;
    width: 5rem;
@@ -1022,19 +1003,19 @@ body{
    height: 30rem;
  }
  
- .choose {
+ input.choose {
    width: 80%;
    padding-top: 0.7rem;
    margin-bottom: 3rem;
    box-sizing: border-box;
    border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
    border-radius: 60px;
-   background-color: F9F2F0;
+   background-color: #F9F2F0;
    font-family: katibeh;
    font-size: 2rem;
  }
  
- .choose:hover {
+ input.choose:hover {
    background-color: #9b282c;
    color: white;
    transition: 0.5s;
@@ -1069,7 +1050,7 @@ body{
    color: white;
 }
 
-.person-knap {
+input.person-knap {
    width: 40px;
    height: 40px;
    border-radius: 50%;
@@ -1077,6 +1058,8 @@ body{
    font-size: 1.8rem;
    border: 1px solid #9b282c;
    font-family: katibeh;
+   background-color: #F9F2F0;
+   color: #9b282c;
 }
 
 .japanskmad {
@@ -1089,6 +1072,12 @@ body{
    border: 1px solid #9b282c; /* Tynd rød linje rundt om boksen */
    box-shadow: 10px 10px 5px #f1dfdd;
 }
+
+.person-knap .person-knap-selected {
+  background-color: #9b282c;
+  color: white;
+}
+
 
 /*Styling af betaling.html*/
 
@@ -1267,14 +1256,14 @@ box-shadow: 10px 10px 5px #f1dfdd;
 height: 30rem;
 }
 
-.betalingsmetode-overskrift {
+input.betalingsmetode-overskrift {
 font-family: katibeh;
 color: #344396;
 font-size: 1.6rem; 
 margin-top: 0.5rem;
 }
 
-.betalingsmetode {
+input.betalingsmetode {
 padding: 1rem 2rem;
 display: flex;
 flex-direction: column;
@@ -1301,6 +1290,24 @@ margin-top: 3rem; /* Tilføjer lidt afstand mellem radio-knapper og knappen */
 }
 
 
+.betalingsmetode-next {
+  height: 2rem;
+  width: 10rem;
+  color: #9b282c;
+  margin-top: 2rem;
+  box-sizing: border-box;
+  border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
+  border-radius: 60px;
+  background-color: #F9F2F0;
+  font-family: katibeh;
+  font-size: 1.5rem;
+}
+
+.betalingsmetode-next:hover {
+  background-color: #9b282c;
+  color: white;
+  transition: 0.5s;
+}
 
  
  /*-----------------Styling af arigatou.html------------------*/
