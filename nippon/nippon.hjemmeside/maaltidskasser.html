@@ -10,14 +10,22 @@
     <link rel="shortcut icon" href="images-nippon/favicon.png">
     <!-- Link til font awesome iconerne -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <!-- link til overskrift font -->
+    <!--Link til 'Katibeh'-font fra google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Katibeh&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <!-- link til brødtekstfont -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Katibeh&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" rel="stylesheet">
+<!--Link til KoHo font fra Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Katibeh&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital@0;1&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
    <!-- Link til stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -50,7 +58,7 @@
 
             <div class="maaltidskasser-txt">
 
-            <p class="brødtekst-maaltidskasser">
+            <p class="brødtekst-maaltidskasser-side">
                 Vores måltidskasser er udarbejdet af 
                 vores kokke der har specialiseret sig i det japanske køkken. 
                 <br>
@@ -65,7 +73,10 @@
             </div>
 
             <!-- filterings ikoner -->
-            <div id="filter-buttons">
+            <div class="filterings-overskrift">
+              <p>Filtrer:</p>
+            </div>
+            <div id="filter-buttonss">
                 <img src="img/chili-ikon.webp" alt="filter1" data-filter="filter1">
                 <img src="img/fisk.webp" alt="filter2" data-filter="filter2">
                 <img src="img/glutenfri.webp" alt="filter3" data-filter="filter3">
@@ -93,8 +104,10 @@
                 <i class="fas fa-clock"></i>
                 <p class="tid">20-30 min</p>
             </div>
-            <button class="læs-mere-knap">Læs mere</button>
-            <button class="tilføj-knap">Tilføj</button>
+            <span class="måltidskasse-læs-mere-knap"> 
+              <a href="error.html">Læs Mere</a></span>
+            <span class="måltidskasse-tilføj-knap"> 
+              <a href="error.html">Tilføj</a></span>
           </div>
         </div>
       </div>
@@ -111,8 +124,10 @@
                 <i class="fas fa-clock"></i>
                 <p class="tid">20-30 min</p>
             </div>
-            <button class="læs-mere-knap">Læs mere</button>
-            <button class="tilføj-knap">Tilføj</button>
+            <span class="måltidskasse-læs-mere-knap"> 
+              <a href="error.html">Læs Mere</a></span>
+            <span class="måltidskasse-tilføj-knap"> 
+              <a href="error.html">Tilføj</a></span>
           </div>
         </div>
       </div>
@@ -129,8 +144,10 @@
                 <i class="fas fa-clock"></i>
                 <p class="tid">20-30 min</p>
             </div>
-            <button class="læs-mere-knap">Læs mere</button>
-            <button class="tilføj-knap">Tilføj</button>
+            <span class="måltidskasse-læs-mere-knap"> 
+              <a href="error.html">Læs Mere</a></span>
+            <span class="måltidskasse-tilføj-knap"> 
+              <a href="error.html">Tilføj</a></span>
           </div>
         </div>
       </div>
@@ -149,8 +166,10 @@
                 <i class="fas fa-clock"></i>
                 <p class="tid">20-30 min</p>
             </div>
-            <button class="læs-mere-knap">Læs mere</button>
-            <button class="tilføj-knap">Tilføj</button>
+            <span class="måltidskasse-læs-mere-knap"> 
+              <a href="error.html">Læs Mere</a></span>
+            <span class="måltidskasse-tilføj-knap"> 
+              <a href="error.html">Tilføj</a></span>
           </div>
         </div>
       </div>
@@ -169,7 +188,8 @@
             </div>
             <span class="måltidskasse-læsmere-knap"> 
               <a href="maaltider.html">Læs mere</a></span>
-            <button class="tilføj-knap">Tilføj</button>
+              <span class="måltidskasse-tilføj-knap"> 
+                <a href="error.html">Tilføj</a></span>
           </div>
         </div>
       </div>
@@ -187,9 +207,13 @@
                 <p class="tid">20-30 min</p>
             </div>
             
-            <span class="måltidskasse-læsmere-knap"> 
-              <a href="vegetarkassen.html">Læs mere</a></span>
-            <button class="tilføj-knap">Tilføj</button>
+            
+              <span class="måltidskasse-læsmere-knap"> 
+                <a href="vegetarkassen.html">Læs mere</a></span>
+                <span class="måltidskasse-tilføj-knap"> 
+                  <a href="error.html">Tilføj</a></span>
+            
+            
           </div>
         </div>
       </div>
