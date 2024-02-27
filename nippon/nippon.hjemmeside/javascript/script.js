@@ -33,28 +33,79 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // javascript til valg side
-  // function velgAntall(num) {
-    const buttons = document.getElementsByClassName('person-knap');
-  
-  function changeColor(event) {
-    event.target.style.backgroundColor = "red"; 
-  }
+  document.addEventListener('DOMContentLoaded', function () {
+    const personButtons = document.querySelectorAll('.antal-personer .person-knap');
+    const dageButtons = document.querySelectorAll('.antal-dage .person-knap');
+    const næsteButton = document.querySelector('.choose');
+    const fejlmeddelelse = document.querySelector('.fejlmeddelelse');
 
-    buttons.addEventListener("click", changeColor); 
-  
+    let selectedPersonButton = null;
+    let selectedDageButton = null;
 
-  //   var selectedButton = document.querySelector('.person-knapper .person-knap:nth-child(' + num + ')');
-  //   selectedButton.classList.add('person-knap-selected');
-  // }
-  
-  
+    function velgAntallPersoner(valg) {
+        handleButtonClick(this, 'selected', valg, 'antal-personer', 'person-knap', selectedPersonButton);
+        selectedPersonButton = this;
+        checkForValidSelection();
+    }
 
+    function velgAntallDage(valg) {
+        handleButtonClick(this, 'selected', valg, 'antal-dage', 'person-knap', selectedDageButton);
+        selectedDageButton = this;
+        checkForValidSelection();
+    }
 
+    function handleButtonClick(clickedButton, selectedClass, valg, categoryClass, buttonClass, selectedButton) {
+        const categoryButtons = document.querySelectorAll(`.${categoryClass} .${buttonClass}`);
 
-<<<<<<< Updated upstream
-  
-  
-  
-=======
+        // Hvis den allerede er valgt, fjern markeringen
+        if (selectedButton === clickedButton) {
+            clickedButton.classList.remove(selectedClass);
+            selectedButton = null;
+        } else {
+            // Fjern markering fra alle knapper i kategorien
+            categoryButtons.forEach(button => {
+                button.classList.remove(selectedClass);
+            });
 
->>>>>>> Stashed changes
+            // Markér den valgte knap
+            clickedButton.classList.add(selectedClass);
+
+            // Opdater her, hvad du vil gøre med valget (fx sende det til serveren eller gemme det lokalt)
+            console.log(`Valgt ${categoryClass}: ${valg}`);
+        }
+    }
+
+    function checkForValidSelection() {
+        const personValgt = selectedPersonButton !== null;
+        const dageValgt = selectedDageButton !== null;
+
+        // Aktivér Næste-knappen, hvis mindst én knap er valgt i både antal personer og antal dage
+        næsteButton.disabled = !(personValgt && dageValgt);
+
+        // Vis fejlmeddelelse, hvis ingen knapper er valgt
+        if (!personValgt && !dageValgt) {
+            fejlmeddelelse.textContent = 'Vælg mindst én knap for både antal personer og antal dage';
+        } else {
+            fejlmeddelelse.textContent = '';
+        }
+    }
+
+    // Lyt efter klik på hver knap i antal personer
+    personButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const valg = this.value;
+            velgAntallPersoner.call(this, valg);
+        });
+    });
+
+    // Lyt efter klik på hver knap i antal dage
+    dageButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const valg = this.value;
+            velgAntallDage.call(this, valg);
+        });
+    });
+
+    // Tjek for gyldigt valg ved siden af indlæsning
+    checkForValidSelection();
+});

@@ -169,7 +169,6 @@ span.forside-knap a{
   padding-right: 20rem;
 }
 
-<<<<<<< Updated upstream
 .farvorit-item-forside {
   text-align: center;
   margin-right: 20px;
@@ -184,34 +183,6 @@ span.forside-knap a{
   width: 30vw;
  background-color: transparent;
 }
-=======
- /* styling af farvoritkasserne */
- .farvoritter {
-   display: flex;
-   justify-content: space-around; 
-   align-items: center;
-   padding-left: 20rem;
-   padding-right: 20rem;
- }
- 
-
- .farvorit-item {
-   text-align: center;
-   margin-right: 20px;
-   width: 400px;
- }
-
-
-
- /* styling af farvoritkasser billeder */
- #vegetarfarvorit,
- #familiefarvorit,
- #studiefarvorit{
-   height: auto;
-   width: 30vw;
-  background-color: transparent;
- }
->>>>>>> Stashed changes
 
 .farvorit-item img {
   width: 100%; /* Sørg for, at billedet inden i cirklen passer inden for cirklen */
@@ -1102,10 +1073,11 @@ input.person-knap {
    box-shadow: 10px 10px 5px #f1dfdd;
 }
 
-.person-knap .person-knap-selected {
-  background-color: #9b282c;
-  color: white;
+.person-knap.selected {
+  background-color: #9b282c; /* Skift farven til din ønskede markeringsfarve */
+  color: #fff; /* Skift farven til hvid eller en kontrastfarve */
 }
+
 
 
 /*Styling af betaling.html*/
