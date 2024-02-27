@@ -349,6 +349,7 @@ span.forside-knap a{
 
 .fas.fa-clock {
   color: #344396;
+  size: 1.5rem;
 
 }
 
@@ -356,7 +357,12 @@ span.forside-knap a{
   color: #344396;
   margin-left: 15px;
   margin-bottom: 5px;
+  font-size: 1.5rem;
 
+}
+.pris{
+  font-weight: normal;
+  font-size: 1.5rem;
 }
 
 .tids-detaljer{
@@ -375,6 +381,7 @@ span.forside-knap a{
 
 span.måltidskasse-læs-mere-knap,
 span.måltidskasse-tilføj-knap {
+  display: inline-block;
   background-color: white;
   color: #9b282c;
   border: 2px solid #9b282c;
