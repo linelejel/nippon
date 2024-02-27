@@ -1257,15 +1257,16 @@ justify-content: center;
 }
 
 .boks4 {
-border: 1px solid #9b282c; /* Tynd rød linje rundt om boksen */
-padding: 2rem;
-text-align: center;
-border-radius: 60px;
-margin-bottom: 2rem;
-margin-right: 0.5rem;
-background-color: white;
-box-shadow: 10px 10px 5px #f1dfdd;
-height: 30rem;
+  /* Existing styles for .boks4 */
+  border: 1px solid #9b282c;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 60px;
+  margin-bottom: 2rem;
+  margin-right: 0.5rem;
+  background-color: white;
+  box-shadow: 10px 10px 5px #f1dfdd;
+  height: auto; /* Change height to auto */
 }
 
 .betalingsmetode-overskrift {
@@ -1276,9 +1277,13 @@ margin-top: 0.5rem;
 }
 
 .betalingsmetode {
-padding: 1rem 2rem;
-display: flex;
-flex-direction: column;
+  /* Existing styles for .betalingsmetode */
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  max-height: 30rem; /* Add max-height to the form */
+  overflow-y: auto; /* Add overflow-y to enable scrolling if needed */
+  
 }
 
 .metode {
@@ -1297,9 +1302,11 @@ margin: 1.2rem; /* Fjerner den tidligere margin for at undgå overskydende afsta
 }
 
 .betalingsmetode-next {
-align-self: flex-end; /* Flytter knappen til højre side */
-margin-top: 3rem; /* Tilføjer lidt afstand mellem radio-knapper og knappen */
+  /* Existing styles for .betalingsmetode-next */
+  align-self: flex-end;
+  margin-top: 1rem; /* Adjust margin-top */
 }
+
 
 
 
