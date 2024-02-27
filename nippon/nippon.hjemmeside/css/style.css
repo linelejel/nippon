@@ -709,11 +709,148 @@ input[type="button"]{
 
 
 
+/*************************************************************************************************************************************/
+/**************************************************************** valg ***************************************************************/
+/*************************************************************************************************************************************/
 
 
+body{
+  background-color: #f9f2f0;
+}
 
+.proces1 {
+   margin-top: 2rem;
+   text-align: center;
+}
+
+.step1 {
+   width: 40rem;
+   height: auto;
+}
+
+.indhold1 {
+   display: flex;
+   justify-content: center;
+}
+
+.betalingsmetode-next {
+   height: 2rem;
+   width: 10rem;
+   color: #9b282c;
+   margin-top: 2rem;
+   box-sizing: border-box;
+   border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
+   border-radius: 60px;
+   background-color: #F9F2F0;
+   font-family: katibeh;
+   font-size: 1.5rem;
+}
+
+.betalingsmetode-next:hover {
+   background-color: #9b282c;
+   color: white;
+   transition: 0.5s;
+}
+
+.tilbageknap1 {
+   height: 2rem;
+   width: 5rem;
+   color: #9b282c;
+   margin-top: 4rem;
+   box-sizing: border-box;
+   border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
+   border-radius: 60px;
+   background-color: #F9F2F0;
+   font-family: katibeh;
+   font-size: 1.2rem;
+   margin-left: 5rem;
+}
+
+.tilbageknap1:hover {
+   background-color: #9b282c;
+   color: white;
+   transition: 0.5s;
+}
+
+.boks1 {
+   border: 1px solid #9b282c; /* Tynd rød linje rundt om boksen */
+   padding: 20px;
+   text-align: center;
+   border-radius: 10%;
+   margin-bottom: 2rem;
+   margin-right: 0.5rem;
+   background-color: white;
+   box-shadow: 10px 10px 5px #f1dfdd;
+   height: 30rem;
+ }
  
+ .choose {
+   width: 80%;
+   padding-top: 0.7rem;
+   margin-bottom: 3rem;
+   box-sizing: border-box;
+   border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
+   border-radius: 60px;
+   background-color: F9F2F0;
+   font-family: katibeh;
+   font-size: 2rem;
+ }
+ 
+ .choose:hover {
+   background-color: #9b282c;
+   color: white;
+   transition: 0.5s;
+ }
 
+.antalpersoner {
+   margin: 3rem 5rem 1rem 1rem;
+   color: #344396;
+   text-align: left;
+   font-size: 1.8rem;
+   font-family: katibeh;
+}
+
+.antaldage {
+   margin: 3rem 5rem 1rem 1rem;
+   text-align: left;
+   color: #344396;
+   font-size: 1.8rem;
+   font-family: katibeh;
+}
+
+.person-knapper {
+   display: flex;
+   gap: 2rem;
+   margin: 2rem 2rem 4rem 1rem;
+   
+}
+
+.person-knapper :hover {
+   background-color: #9b282c;
+   transition: 0.5s;
+   color: white;
+}
+
+.person-knap {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   padding-top: 0.5rem;
+   font-size: 1.8rem;
+   border: 1px solid #9b282c;
+   font-family: katibeh;
+}
+
+.japanskmad {
+   flex-direction: row;
+   width: auto;
+   height: 30rem;
+   border-radius: 10%;
+   margin-left: 0.5rem;
+   margin-bottom: 4rem;
+   border: 1px solid #9b282c; /* Tynd rød linje rundt om boksen */
+   box-shadow: 10px 10px 5px #f1dfdd;
+}
 
 /*Styling af betaling.html*/
 
@@ -842,6 +979,88 @@ input[type="button"]{
   font-size: 1rem;
 }
 
+/*************************************************************************************************************************************/
+/********************************************************** betalingsmetode **********************************************************/
+/*************************************************************************************************************************************/
+.step4 {
+  width: 40rem;
+  height: auto;
+}
+
+.proces4 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.tilbageknap4 {
+height: 2rem;
+width: 5rem;
+color: #9b282c;
+margin-top: 4rem;
+box-sizing: border-box;
+border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
+border-radius: 60px;
+background-color: #F9F2F0;  
+font-family: katibeh;
+font-size: 1.2rem;
+margin-left: 5rem;
+}
+
+.tilbageknap4:hover {
+background-color: #9b282c;
+color: white;
+transition: 0.5s;
+}
+
+.indhold4 {
+display: flex;
+justify-content: center;
+}
+
+.boks4 {
+border: 1px solid #9b282c; /* Tynd rød linje rundt om boksen */
+padding: 2rem;
+text-align: center;
+border-radius: 60px;
+margin-bottom: 2rem;
+margin-right: 0.5rem;
+background-color: white;
+box-shadow: 10px 10px 5px #f1dfdd;
+height: 30rem;
+}
+
+.betalingsmetode-overskrift {
+font-family: katibeh;
+color: #344396;
+font-size: 1.6rem; 
+margin-top: 0.5rem;
+}
+
+.betalingsmetode {
+padding: 1rem 2rem;
+display: flex;
+flex-direction: column;
+}
+
+.metode {
+display: flex;
+align-items: center; /* Centrerer indholdet vertikalt */
+}
+
+.betalingsikoner {
+width: 2rem;
+height: auto;
+margin-right: 1rem; /* Afstand mellem ikon og tekst */
+}
+
+.metode input {
+margin: 1.2rem; /* Fjerner den tidligere margin for at undgå overskydende afstand */
+}
+
+.betalingsmetode-next {
+align-self: flex-end; /* Flytter knappen til højre side */
+margin-top: 3rem; /* Tilføjer lidt afstand mellem radio-knapper og knappen */
+}
 
 
 
