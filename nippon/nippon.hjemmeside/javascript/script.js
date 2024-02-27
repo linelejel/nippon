@@ -49,12 +49,19 @@ document.addEventListener('DOMContentLoaded', function () {
   
   
 
+  /*Næste knap betalingsmetode */
+  function submitForm() {
+    const selectedPaymentMethod = document.querySelector('input[name="paymentMethod"]:checked');
 
+    if (selectedPaymentMethod) {
+      // Brugeren har valgt en betalingsmetode, fortsæt med at sende formularen
+      document.querySelector('form.betalingsmetode').submit();
+    } else {
+      // Brugeren har ikke valgt en betalingsmetode, vis en fejlmeddelelse eller tag andre handlinger
+      alert('Vælg venligst en betalingsmetode.');
+    }
+  }
 
-<<<<<<< Updated upstream
   
   
   
-=======
-
->>>>>>> Stashed changes
