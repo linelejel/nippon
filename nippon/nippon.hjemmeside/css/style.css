@@ -1260,7 +1260,7 @@ margin-top: 3rem; /* Tilføjer lidt afstand mellem radio-knapper og knappen */
 
 
  
- /*Styling af arigatou.html*/
+ /*-----------------Styling af arigatou.html------------------*/
 
 .arigatou{
   font-family: "Bebas Neue", sans-serif;
@@ -1319,6 +1319,185 @@ video {
   width: 100%;
   height: 45vh;
   padding: 3rem;
+}
+
+
+
+/*Styling til lav din egen kasse undersiden*/
+/*Her styler jeg første række under min underside lav din egen kasse*/
+.first-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around; /* Juster efter præference: space-between, space-evenly osv. */
+  align-items: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+}
+/**/
+
+
+.first-item {
+  text-align: center;
+  margin-right: 20px;
+}
+#sushi{
+  height: auto;
+  width: 20vw;
+  background-color: transparent;
+  
+ 
+}
+
+/*Der er lavet container rundt om de to, for at ikon-serien kan placeres ved siden af.*/
+
+.sushi-container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  
+}
+
+.fisk-glutenfri {
+  width: 5rem;
+  height: auto;
+  margin-top: 3rem;
+}
+
+
+
+#ramen,
+#dumplings{
+  height: auto;
+  width: 15vw;
+  background-color: transparent;
+ 
+}
+
+.vegetarisk {
+  width: 4rem;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.dumplings-container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.chiliikon {
+  width: 4rem;
+  height: auto;
+  margin-top: 4rem;
+}
+
+.ramen-container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+/*Her styler jeg andedn række under min underside lav din egen */
+.second-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around; /* Juster efter præference: space-between, space-evenly osv. */
+  align-items: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+}
+
+
+.second-item {
+  text-align: center;
+  margin-right: 20px;
+}
+
+/* styling af farvoritkasser billeder */
+#rispapirsruller,
+#okonomiyaki{
+  height: auto;
+  width: 20vw;
+ background-color: transparent;
+ 
+}
+
+.laktosefri-fisk {
+  width: 5rem;
+  height: auto;
+  margin-top: 3rem;
+}
+
+.papirsruller-container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.vegansk {
+  width: 4rem;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.okonomiyaki-container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+#tempuratofu {
+  width: 20vw;
+  margin-left: -1.5rem;
+}
+
+.tempura-container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.fisk {
+  width: 4rem;
+  height: auto;
+  margin-top: 2rem;
+}
+
+
+.menu-item img {
+  width: 100%; /* Sørg for, at billedet inden i cirklen passer inden for cirklen */
+  height: auto;
+}
+/* styling af cirkel bag ved billeder */
+.circle-background{
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img#ur {
+  width: 20%;
+}
+div.tid {
+  display: flex;
+  align-items: center;
+  margin-left: 6rem;
+  margin-top: 1rem;
+}
+
+div.knapper {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+
+}
+
+div.knapper,span {
+  
+  margin-left: 2rem;
+}
+
+section.næsteknap {
+  margin-top: 6rem ;
+  margin-bottom: 4rem;
+  margin-left: 85%;
+  
 }
 
 
