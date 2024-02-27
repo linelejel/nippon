@@ -245,7 +245,7 @@
    display: flex;
    justify-content: space-around;
    align-items: center;
-   padding: 20px 0 0 0; /* Juster padding efter dine præferencer */
+   padding: 20px 0 0 0; 
    background-color: #f9f2f0;
  }
  
@@ -255,6 +255,13 @@
    background-color: #f9f2f0;
  }
 
+
+ #info p{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+ }
 
 
 
