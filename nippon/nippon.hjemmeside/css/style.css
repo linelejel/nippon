@@ -167,9 +167,9 @@ span.forside-knap a{
   align-items: center;
   padding-left: 20rem;
   padding-right: 20rem;
+  
 }
 
-<<<<<<< Updated upstream
 .farvorit-item-forside {
   text-align: center;
   margin-right: 20px;
@@ -184,34 +184,6 @@ span.forside-knap a{
   width: 30vw;
  background-color: transparent;
 }
-=======
- /* styling af farvoritkasserne */
- .farvoritter {
-   display: flex;
-   justify-content: space-around; 
-   align-items: center;
-   padding-left: 20rem;
-   padding-right: 20rem;
- }
- 
-
- .farvorit-item {
-   text-align: center;
-   margin-right: 20px;
-   width: 400px;
- }
-
-
-
- /* styling af farvoritkasser billeder */
- #vegetarfarvorit,
- #familiefarvorit,
- #studiefarvorit{
-   height: auto;
-   width: 30vw;
-  background-color: transparent;
- }
->>>>>>> Stashed changes
 
 .farvorit-item img {
   width: 100%; /* Sørg for, at billedet inden i cirklen passer inden for cirklen */
@@ -1000,6 +972,25 @@ body{
    justify-content: center;
 }
 
+.betalingsmetode-next {
+   height: 2rem;
+   width: 10rem;
+   color: #9b282c;
+   margin-top: 2rem;
+   box-sizing: border-box;
+   border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
+   border-radius: 60px;
+   background-color: #F9F2F0;
+   font-family: katibeh;
+   font-size: 1.5rem;
+}
+
+.betalingsmetode-next:hover {
+   background-color: #9b282c;
+   color: white;
+   transition: 0.5s;
+}
+
 .tilbageknap1 {
    height: 2rem;
    width: 5rem;
@@ -1032,19 +1023,19 @@ body{
    height: 30rem;
  }
  
- input.choose {
+ .choose {
    width: 80%;
    padding-top: 0.7rem;
    margin-bottom: 3rem;
    box-sizing: border-box;
    border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
    border-radius: 60px;
-   background-color: #F9F2F0;
+   background-color: F9F2F0;
    font-family: katibeh;
    font-size: 2rem;
  }
  
- input.choose:hover {
+ .choose:hover {
    background-color: #9b282c;
    color: white;
    transition: 0.5s;
@@ -1079,7 +1070,7 @@ body{
    color: white;
 }
 
-input.person-knap {
+.person-knap {
    width: 40px;
    height: 40px;
    border-radius: 50%;
@@ -1087,8 +1078,6 @@ input.person-knap {
    font-size: 1.8rem;
    border: 1px solid #9b282c;
    font-family: katibeh;
-   background-color: #F9F2F0;
-   color: #9b282c;
 }
 
 .japanskmad {
@@ -1101,12 +1090,6 @@ input.person-knap {
    border: 1px solid #9b282c; /* Tynd rød linje rundt om boksen */
    box-shadow: 10px 10px 5px #f1dfdd;
 }
-
-.person-knap .person-knap-selected {
-  background-color: #9b282c;
-  color: white;
-}
-
 
 /*Styling af betaling.html*/
 
@@ -1285,14 +1268,14 @@ box-shadow: 10px 10px 5px #f1dfdd;
 height: 30rem;
 }
 
-input.betalingsmetode-overskrift {
+.betalingsmetode-overskrift {
 font-family: katibeh;
 color: #344396;
 font-size: 1.6rem; 
 margin-top: 0.5rem;
 }
 
-input.betalingsmetode {
+.betalingsmetode {
 padding: 1rem 2rem;
 display: flex;
 flex-direction: column;
@@ -1319,24 +1302,6 @@ margin-top: 3rem; /* Tilføjer lidt afstand mellem radio-knapper og knappen */
 }
 
 
-.betalingsmetode-next {
-  height: 2rem;
-  width: 10rem;
-  color: #9b282c;
-  margin-top: 2rem;
-  box-sizing: border-box;
-  border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
-  border-radius: 60px;
-  background-color: #F9F2F0;
-  font-family: katibeh;
-  font-size: 1.5rem;
-}
-
-.betalingsmetode-next:hover {
-  background-color: #9b282c;
-  color: white;
-  transition: 0.5s;
-}
 
  
  /*-----------------Styling af arigatou.html------------------*/
