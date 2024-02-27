@@ -340,14 +340,21 @@ span.forside-knap a{
 
 .fas.fa-clock {
   color: #344396;
+  size: 1.5rem;
 
 }
 
 .tid {
   color: #344396;
   margin-left: 15px;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 
+}
+.pris{
+  font-weight: normal;
+  font-size: 1.5rem;
 }
 
 .tids-detaljer{
@@ -361,9 +368,12 @@ p {
   font-weight: bold;
 }
 
-.læs-mere-knap,
-.tilføj-knap {
-  background-color: #f9f2f0;
+
+
+span.måltidskasse-læs-mere-knap,
+span.måltidskasse-tilføj-knap {
+  display: inline-block;
+  background-color: white;
   color: #9b282c;
   padding: 8px 16px;
   border: 2px solid #9b282c;
@@ -908,7 +918,7 @@ input[type="button"]{
 
 
 /*************************************************************************************************************************************/
-/**************************************************************** valg ***************************************************************/
+/******************************************************* styling af valg-siden *******************************************************/
 /*************************************************************************************************************************************/
 
 
