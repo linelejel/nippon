@@ -115,10 +115,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var paymentMethod = document.querySelector('input[name="paymentMethod"]:checked');
 
     if (paymentMethod && (paymentMethod.value === "Dankort" || paymentMethod.value === "mastercard")) {
-        // Tillad form indsendelse
+        // Tillad form kører, hvis Dankort eller MasterCard er valgt 
     } else {
         alert("Vælg enten Dankort eller MasterCard før du fortsætter.");
-        return false; // Forhindrer form indsendelse
+        return false; // Forhindrer form i at køre, hvis Dankort eller MasterCard ikke er valgt 
     }
 }
 
