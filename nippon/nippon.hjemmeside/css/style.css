@@ -1359,6 +1359,19 @@ video {
   padding: 3rem;
 }
 
+/* styling af tilbage til forsiden knap */
+.tilbage-error-container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+
+span.tilbage-error:hover{
+  opacity: 0.8;
+}
+
 
 
 /*Styling til lav din egen kasse undersiden*/
