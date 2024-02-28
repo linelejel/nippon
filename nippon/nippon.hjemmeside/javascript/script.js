@@ -112,20 +112,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
   /*Næste knap betalingsmetode */
   function submitForm() {
-    var paymentMethod = document.querySelector('input[name="paymentMethod"]:checked');
+    const selectedPaymentMethod = document.querySelector('input[name="paymentMethod"]:checked');
 
-    if (paymentMethod && (paymentMethod.value === "Dankort" || paymentMethod.value === "mastercard")) {
-        // Tillad form indsendelse
+    if (selectedPaymentMethod) {
+      // Brugeren har valgt en betalingsmetode, fortsæt med at sende formularen
+      document.querySelector('form.betalingsmetode').submit();
     } else {
-        alert("Vælg enten Dankort eller MasterCard før du fortsætter.");
-        return false; // Forhindrer form indsendelse
+      // Brugeren har ikke valgt en betalingsmetode, vis en fejlmeddelelse eller tag andre handlinger
+      alert('Vælg venligst en betalingsmetode.');
     }
-}
+  }
 
-
-  // 
-
-
+  
+ 
 
   
   
