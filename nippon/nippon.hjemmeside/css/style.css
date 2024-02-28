@@ -245,6 +245,13 @@ span.forside-knap a{
   font-weight: normal;
 }
 
+/* styling af mission felt overskrift */
+.overskirft-missionfelt{
+  font-family: "KoHo", sans-serif ;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
  /* styling af billeder over footer */
  .footer-top {
    display: flex;
