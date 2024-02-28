@@ -449,7 +449,14 @@ span.måltidskasse-læsmere-knap:hover{
   height: 50px; /* Juster højden efter behov */
   margin: 5px;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+
 }
+
+#filter-buttonss img:hover{
+  transform: scale(1.1)
+}
+
 
 #filter-buttonss{
   display: flex;
@@ -1412,6 +1419,19 @@ span.tilbage-error:hover{
 
 /*Styling til lav din egen kasse undersiden*/
 /*Her styler jeg første række under min underside lav din egen kasse*/
+
+#filter-buttons img {
+  width: 50px; /* Juster bredden efter behov */
+  height: 50px; /* Juster højden efter behov */
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+#filter-buttons img:hover{
+  transform: scale(1.1)
+}
 .first-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
