@@ -33,9 +33,9 @@
 </head>
 
 
-
 <body>
 
+  
     <header>
         <!-- navigations bar med logo i venstre side -->
         <nav class="nav"> 
@@ -46,96 +46,79 @@
                 <ul>
                     <li id="maaltidskasser"> <a href="maaltidskasser.html">Måltidskasser </a></li>
                     <li id="infographic"> <a href="infographic.html"> Sådan fungerer det</a></li>
-                    <li id="error"> <a href="error.html"> Om os</a></li>
+                    <li  id="error"> <a href="error.html"> Om os</a></li>
                 </ul>
             </div>
             <div class="søgefelt"> <i class="fas fa-search"></i></div>
             <div class="login"> <a href="log-ind2.html"><img src="img/login.png" alt="login" id="login-ikon"></a></div>
-            <div class="kurv"> <a href="tomkurv.html">
-                <img src="img/kurv.webp" alt="indkøbskurv" id="indkøbskurv">
-              </a></div>
+            <div class="kurv"> <img src="img/kurv.webp" alt="indkøbskurv" id="indkøbskurv"></div>
         </nav>
     </header>
         
+        
 
+    <!--tom kurv-->
 
-    <main>
-        <div class="proces1">
-            <img class="step1" src="img/step1.png" alt="Step 1 i processen">
+    <div class="error-txt">
+        <h1 class="error-txt2">Din indkøbskurv er tom</h1>
+        <div class="tomkurv-container">
+            <img src="img/kurv.webp" alt="indkøbskurv" class="tomkurv"> 
         </div>
-        
-        
- 
-
-        <a href="maaltidskasser.html"><button class="tilbageknap1">Tilbage</button></a>
-        <div class="indhold1">
-        <section class="boks1">
-<form action="log-ind.html">
-            <p class="antalpersoner">Antal personer</p>
-            <div class="person-knapper antal-personer">
-                <input type="button" class="person-knap" value="1" onclick="velgAntall(1)">
-                <input type="button" class="person-knap" value="2" onclick="velgAntall(2)">
-                <input type="button" class="person-knap" value="3" onclick="velgAntall(3)">
-                <input type="button" class="person-knap" value="4" onclick="velgAntall(4)">
-                <input type="button" class="person-knap" value="5" onclick="velgAntall(5)">
-            </div>
-            
-            <p class="antaldage">Antal dage</p>
-            <div class="person-knapper antal-dage">
-                <input type="button" class="person-knap" value="1" onclick="velgAntall(1)">
-                <input type="button" class="person-knap" value="2" onclick="velgAntall(2)">
-                <input type="button" class="person-knap" value="3" onclick="velgAntall(3)">
-                <input type="button" class="person-knap" value="4" onclick="velgAntall(4)">
-                <input type="button" class="person-knap" value="5" onclick="velgAntall(5)">
-            </div>
-        </form>
-            <a href="maaltider.html"><input class="choose" type="submit" value="Næste"></a>
-        
-    
-        
        
-        
-        </section>
-    
-        <section>
-                <img class="japanskmad" src="img/bord.webp" alt="Japansk mad">
-        </section>
-    
+        <p class="error-txt3"> Din kurv er tom. 
+            <br>
+            Tilføj noget til kurven for at se det her. 
+        </p>
     </div>
-    </main>
 
 
+    <!-- tilbage til forsiden knap -->
+    <div class="tilbage-error-container">
+         <span class="tilbage-error"> 
+        <a href="index.html">Tilbage til forsiden</a></span>
+    </div>
+   
 
-
-    
-    <div class="footer-top">
+    <footer>
+        <div class="footer-top">
             <img src="img/japanskehuse.webp" alt="footerimg">
             <img src="img/japanskehuse.webp" alt="footerimg">
             <img src="img/japanskehuse.webp" alt="footerimg">
             
           </div>
-    
+    </footer>
 
     <footer>
-        
+
         <section id="info">
-           <p>Kontakt: <br>
-            nippon@gmail.com <br>
-            Tlf. 21222324
-        </p> 
-        
-              
+            <p>Kontakt: <br>
+             nippon@gmail.com <br>
+             Tlf. 21222324
+         </p> 
+         
                
-            
-        </section>
-        <section id="medier">
-            <a href="https://www.google.com/search?q=instagram&rlz=1C5CHFA_enDK1036DK1036&oq=instagram+&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7Mg0IARAAGIMBGLEDGIAEMgoIAhAAGLEDGIAEMgYIAxBFGDwyBggEEEUYPDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDE3MTFqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.google.com/search?q=facebook&rlz=1C5CHFA_enDK1036DK1036&oq=facebook+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTISCAEQABhDGIMBGLEDGIAEGIoFMhIIAhAAGEMYgwEYsQMYgAQYigUyDQgDEAAYgwEYsQMYgAQyBggEEEUYPDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDM1ODVqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8"><i class="fab fa-facebook"></i></a>
-        </section>
-
-
+              
+             
+         </section>
+         <section id="medier">
+             <a href="https://www.google.com/search?q=instagram&rlz=1C5CHFA_enDK1036DK1036&oq=instagram+&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7Mg0IARAAGIMBGLEDGIAEMgoIAhAAGLEDGIAEMgYIAxBFGDwyBggEEEUYPDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDE3MTFqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8"><i class="fab fa-instagram"></i></a>
+             <a href="https://www.google.com/search?q=facebook&rlz=1C5CHFA_enDK1036DK1036&oq=facebook+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTISCAEQABhDGIMBGLEDGIAEGIoFMhIIAhAAGEMYgwEYsQMYgAQYigUyDQgDEAAYgwEYsQMYgAQyBggEEEUYPDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDM1ODVqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8"><i class="fab fa-facebook"></i></a>
+         </section>
+ 
     </footer>
-    
     <script src="javascript/script.js"></script>
 </body>
 </html>
+    
+
+
+
+
+
+ 
+  
+
+   
+
+
+    
