@@ -74,7 +74,7 @@
 
     <h1 class="betalingsmetode-overskrift">Vælg betalingsmetode</h1>
 
-    <form action="betaling.html" class="betalingsmetode">
+    <form action="betaling.html" class="betalingsmetode" onsubmit="return submitForm()">
       <label class="metode">
         <input type="radio" name="paymentMethod" value="Dankort">
         <img class="betalingsikoner" src="img/dankort.webp" alt="Dankort ikon"> Dankort
@@ -100,7 +100,7 @@
         <img class="betalingsikoner" src="img/paypal.webp" alt="PayPal"> PayPal
       </label>
 
-      <button class="betalingsmetode-next" type="button" onclick="submitForm()">Næste</button>
+      <button class="betalingsmetode-next" type="submit">Næste</button>
     </form>
 
     </section>
