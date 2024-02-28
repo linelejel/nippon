@@ -844,7 +844,7 @@ span {
 
 /*Styling af logind-knap*/
 input[type="submit"] {
-  background-color: #FCF9F9;
+  background-color: blue;
   font-size: 1.3rem;
   transition: transform 0.3s ease-in-out;
  }
@@ -866,13 +866,48 @@ input[type="submit"] {
   padding: 1rem;
 }
 
+/*Styling af Fortsæt som gæst-knap*/
+.gæst[type="button"]{
+  width: 50%;
+  font-size: 1.2rem;
+  color: #344396;
+  cursor: pointer;
+  background-color: #FCF9F9;
+  font-family: "Jost", sans-serif;
+  background-color: #D6DAE9;
+  border-color: #D6DAE9;
+}
+
 /*Styling af Opret Ny-knap*/
 input[type="button"]{
   width: 50%;
   font-size: 1.2rem;
-  color: #f1dfdd;
-  background-color: #344396;
+  color: #9b282c;
+  background-color: #FCF9F9;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+  border-color: #F1DFDD;
 }
+
+
+/*Log ind knap under felter*/
+
+#nylog{
+  width: 50%;
+  font-size: 1.2rem;
+  color:#D6DAE9 ;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+  background-color: #344693;
+  border-color: #344396;
+
+}
+
+
+
+
+
+
 
 /*Styling af opret-bruger.html*/
 .ny-bruger {
