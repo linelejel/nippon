@@ -844,7 +844,7 @@ span {
 
 /*Styling af logind-knap*/
 input[type="submit"] {
-  background-color: #FCF9F9;
+  background-color: blue;
   font-size: 1.3rem;
   transition: transform 0.3s ease-in-out;
  }
@@ -866,13 +866,48 @@ input[type="submit"] {
   padding: 1rem;
 }
 
+/*Styling af Fortsæt som gæst-knap*/
+.gæst[type="button"]{
+  width: 50%;
+  font-size: 1.2rem;
+  color: #344396;
+  cursor: pointer;
+  background-color: #FCF9F9;
+  font-family: "Jost", sans-serif;
+  background-color: #D6DAE9;
+  border-color: #D6DAE9;
+}
+
 /*Styling af Opret Ny-knap*/
 input[type="button"]{
   width: 50%;
   font-size: 1.2rem;
-  color: #f1dfdd;
-  background-color: #344396;
+  color: #9b282c;
+  background-color: #FCF9F9;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+  border-color: #F1DFDD;
 }
+
+
+/*Log ind knap under felter*/
+
+#nylog{
+  width: 50%;
+  font-size: 1.2rem;
+  color:#D6DAE9 ;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+  background-color: #344693;
+  border-color: #344396;
+
+}
+
+
+
+
+
+
 
 /*Styling af opret-bruger.html*/
 .ny-bruger {
@@ -960,7 +995,7 @@ body{
    border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
    border-radius: 60px;
    background-color: #F9F2F0;
-   font-family: katibeh;
+   font-family: "Bebas Neue", sans-serif;
    font-size: 1.5rem;
 }
 
@@ -979,7 +1014,7 @@ body{
    border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
    border-radius: 60px;
    background-color: #F9F2F0;
-   font-family: katibeh;
+   font-family: "Bebas Neue", sans-serif;
    font-size: 1.2rem;
    margin-left: 5rem;
 }
@@ -1010,7 +1045,7 @@ body{
    border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
    border-radius: 60px;
    background-color: F9F2F0;
-   font-family: katibeh;
+   font-family: "Bebas Neue", sans-serif;
    font-size: 2rem;
  }
  
@@ -1025,7 +1060,7 @@ body{
    color: #344396;
    text-align: left;
    font-size: 1.8rem;
-   font-family: katibeh;
+   font-family: "Bebas Neue", sans-serif;
 }
 
 .antaldage {
@@ -1033,7 +1068,7 @@ body{
    text-align: left;
    color: #344396;
    font-size: 1.8rem;
-   font-family: katibeh;
+   font-family: "Bebas Neue", sans-serif;
 }
 
 .person-knapper {
@@ -1056,7 +1091,7 @@ input.person-knap {
    padding-top: 0.5rem;
    font-size: 1.8rem;
    border: 1px solid #9b282c;
-   font-family: katibeh;
+   font-family: "Bebas Neue", sans-serif;
    color: #344396;
    background-color: #f9f2f0;
 }
@@ -1228,7 +1263,7 @@ box-sizing: border-box;
 border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
 border-radius: 60px;
 background-color: #F9F2F0;  
-font-family: katibeh;
+font-family: "Bebas Neue", sans-serif;
 font-size: 1.2rem;
 margin-left: 5rem;
 }
@@ -1258,7 +1293,7 @@ justify-content: center;
 }
 
 .betalingsmetode-overskrift {
-font-family: katibeh;
+font-family: "Bebas Neue", sans-serif;
 color: #344396;
 font-size: 1.6rem; 
 margin-top: 0.5rem;

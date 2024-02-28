@@ -41,11 +41,11 @@
 
 <!--NAVIGATIONSBAR-->
 
- <header>
-   
-    <nav class="nav">  <!-- navigations bar med logo i venstre side -->
+<header>
+    <!-- navigations bar med logo i venstre side -->
+    <nav class="nav"> 
         <div class="nav-logo">
-            <a href="index.html"><img class="logo" src="img/logo.png" alt="nippon-logo">  </a>  
+        <img class="logo" src="img/logo.png" alt="nippon-logo">    
         </div>
         <div class="nav-menu">
             <ul>
@@ -55,10 +55,10 @@
             </ul>
         </div>
         <div class="søgefelt"> <i class="fas fa-search"></i></div>
-        <div class="login"> <img src="img/login.png" alt="login" id="login-ikon"></div>
+        <div class="login"> <a href="log-ind2.html"><img src="img/login.png" alt="login" id="login-ikon"></a></div>
         <div class="kurv"> <img src="img/kurv.webp" alt="indkøbskurv" id="indkøbskurv"></div>
     </nav>
- </header>
+</header>
 
 
 
@@ -88,13 +88,18 @@
         <label for="adgangskode">Adgangskode</label><!--Mini-overskrift-->
         <input type="password" id="adgangskode" name="adgangskode" required><!--Udfyld-felt-->
 
-        <input type="submit" value="Log ind"> <!--Log ind-knap-->
+        <input type="submit" value="Log ind" id="nylog"> <!--Log ind-knap-->
 
        
     </form> <!--Udfyld-felter SLUT-->
 
-     <!-- 'OPRET NY'-KNAP - SPAN IKKE INPUT TYPE SUBMIT - ANDRE CSS REGLER -->
+          <!-- 'Fortsæt som gæst'-KNAP - -->
+          <a href="error.html"><input type="button" value="Fortsæt som gæst" class="gæst"></a>
+
+     <!-- 'OPRET NY'-KNAP - -->
      <a href="opret-bruger.html"><input type="button" value="Opret ny"></a>
+
+
 
 </div> <!--Log Ind-box SLUT-->
    
