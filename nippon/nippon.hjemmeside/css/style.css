@@ -1358,10 +1358,11 @@ margin: 1.2rem; /* Fjerner den tidligere margin for at undgå overskydende afsta
   width: 40%;
   margin: auto; /* Centrerer boksen */
   border-radius: 45px;
-  margin-top: 7rem;
+  margin-top: 5rem;
   background-color: white;
   box-shadow: 10px 10px 5px #f1dfdd;
   padding: 2rem;
+  margin-bottom: 4rem;
 }
 
  /*Styling ''Error 404''html*/
@@ -1592,6 +1593,10 @@ section.næsteknap {
   margin-bottom: 4rem;
   margin-left: 85%;
 }
+
+
+
+
 
 
 
