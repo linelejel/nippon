@@ -881,7 +881,12 @@ input[type="submit"] {
 }
 
 /*Styling af Fortsæt som gæst-knap*/
-.gæst[type="button"]{
+
+.logind-knapper{
+  display: flex;
+  flex-direction: column;
+}
+#gæst{
   width: 50%;
   font-size: 1.2rem;
   color: #344396;
@@ -890,19 +895,14 @@ input[type="submit"] {
   font-family: "Jost", sans-serif;
   background-color: #D6DAE9;
   border-color: #D6DAE9;
+  margin: auto;
 }
 
-/*Styling af Opret Ny-knap*/
-input[type="button"]{
-  width: 50%;
-  font-size: 1.2rem;
-  color: #9b282c;
-  background-color: #FCF9F9;
-  cursor: pointer;
+#gæst a{
   font-family: "Jost", sans-serif;
-  border-color: #F1DFDD;
+  font-weight: 400;
+  color: #344396;
 }
-
 
 /*Log ind knap under felter*/
 
@@ -915,6 +915,20 @@ input[type="button"]{
   background-color: #344693;
   border-color: #344396;
 
+}
+
+/*Styling af Opret Ny-knap*/
+#opretnyknap2 {
+  width: 50%;
+  font-size: 1.2rem;
+  color: #344396;
+  cursor: pointer;
+  background-color: #FCF9F9;
+  font-family: "Jost", sans-serif;
+  background-color: white;
+  border-color: #9b282c;
+  margin: auto;
+  margin-top: 0.9rem;
 }
 
 
@@ -1058,16 +1072,29 @@ body{
    box-sizing: border-box;
    border: 1px solid #9b282c; /* Tynd rød linje omkring inputboksene */
    border-radius: 60px;
-   background-color: F9F2F0;
    font-family: "Bebas Neue", sans-serif;
    font-size: 2rem;
+   margin-top: -2rem;
  }
  
+ .choose a{
+  color: #9b282c;
+ }
+
+
  .choose:hover {
    background-color: #9b282c;
    color: white;
    transition: 0.5s;
  }
+
+
+
+
+form{
+  background-color: transparent;
+}
+
 
 .antalpersoner {
    margin: 3rem 5rem 1rem 1rem;
@@ -1629,11 +1656,6 @@ section.næsteknap {
   align-items: center;
   margin: 3rem;
 }
-
-
-
-
-
 
 
  
